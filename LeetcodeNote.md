@@ -28,3 +28,13 @@ BFS queue
 
 DFS stack
 
+
+# Functions and Features
+
+## builtin mudules
+
+`sort()`
+
+`min(a,key=len)`   get min or max with different keys
+
+`collections.deque()` `appendleft()` 
