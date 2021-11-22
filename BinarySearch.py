@@ -4,7 +4,7 @@ def BianrySearch(list,item):
     high=len(list)-1
 
     while low<=high:
-        mid=(low+high)
+        mid=(low+high)//2
         guess=list[mid]
         if guess == item:
             return mid #return the position
