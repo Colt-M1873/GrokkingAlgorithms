@@ -5,19 +5,47 @@
 
 [35_SearchInsertPosition](./35_SearchInsertPosition.py)
 
-
-
 ## Two Pointer
 
-[]
+[283_MoveZeros](./283_MoveZeros.py)
+
+[977_SquaresofaSortedArray](./977_SquaresofaSortedArray.py)
+
+## Listnode
+
+[2_AddTwoNumbers](./2_AddTwoNumbers.py)
+
+[21_MergeTwoSortedLists](./21_MergeTwoSortedLists.py)
+
+## Stack
+
+[20_ValidParentheses](./20_ValidParentheses.py)
+
+## Recursion
+
+[21_MergeTwoSortedLists](./21_MergeTwoSortedLists.py)
+
+
+
+
 
 
 
 ## Neat Oneliners
 
-My first oneliner:
+[9_PalindromeNumber](./9_PalindromeNumber.py)
+
+[35_SearchInsertPosition](./35_SearchInsertPosition.py)
+
+[283_MoveZeros](./283_MoveZeros.py)
+
+### My first oneliner
 
 [977_SquaresofaSortedArray](./977_SquaresofaSortedArray.py)
+
+### Zeroliner
+
+[35_SearchInsertPosition](./35_SearchInsertPosition.py)
 
 
 # Tips

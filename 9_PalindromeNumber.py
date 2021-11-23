@@ -27,7 +27,7 @@ class Solution:
         #             return False
         #     return True
 
-        # v2 copied
+        # v2 copied  elegant oneliner
         # a str can be reversely indexed by [::-1]  
         return str(x) == str(x)[::-1] 
 

@@ -47,14 +47,14 @@ class Solution:
         # return len(nums)
         
         
-        # # v3 copied  sort new list and get index
+        # # v3 copied  oneliner sort new list and get index
         # return sorted(nums + [target]).index(target)
     
     
-        # # v4 copied   builtin binary search module
+        # # v4 copied  oneliner builtin binary search module
         # return bisect.bisect_left(nums,target)
     
     
-        # # v5 copied oneline O(n) method, not very fast
+        # # v5 copied oneliner O(n) method, not very fast
         # return len([x for x in nums if x<target])
         
