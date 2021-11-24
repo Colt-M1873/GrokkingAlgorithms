@@ -11,6 +11,8 @@
 
 [977_SquaresofaSortedArray](./977_SquaresofaSortedArray.py)
 
+[167_TwoSumII_InputArrayisSorted](./167_TwoSumII_InputArrayisSorted.py)
+
 ## Listnode
 
 [2_AddTwoNumbers](./2_AddTwoNumbers.py)
@@ -26,6 +28,9 @@
 [21_MergeTwoSortedLists](./21_MergeTwoSortedLists.py)
 
 
+## In-place operation
+
+[26_RemoveDuplicatesfromSortedArray](26_RemoveDuplicatesfromSortedArray.py)
 
 
 
