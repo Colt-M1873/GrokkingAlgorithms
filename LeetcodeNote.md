@@ -13,6 +13,8 @@
 
 [167_TwoSumII_InputArrayisSorted](./167_TwoSumII_InputArrayisSorted.py)
 
+[344_ReverseString](./344_ReverseString.py)
+
 ## Listnode
 
 [2_AddTwoNumbers](./2_AddTwoNumbers.py)
@@ -30,9 +32,9 @@
 
 ## In-place operation
 
-[26_RemoveDuplicatesfromSortedArray](26_RemoveDuplicatesfromSortedArray.py)
+[26_RemoveDuplicatesfromSortedArray](./26_RemoveDuplicatesfromSortedArray.py)
 
-
+[344_ReverseString](./344_ReverseString.py)
 
 
 
@@ -43,6 +45,8 @@
 [35_SearchInsertPosition](./35_SearchInsertPosition.py)
 
 [283_MoveZeros](./283_MoveZeros.py)
+
+[557_ReverseWordsinaStringIII](./557_ReverseWordsinaStringIII.py)
 
 ### My first oneliner
 
