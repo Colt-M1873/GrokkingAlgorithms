@@ -37,6 +37,18 @@
 [344_ReverseString](./344_ReverseString.py)
 
 
+## String Match
+
+### KMP
+
+[28_ImplementstrStr()](./28_ImplementstrStr().py)
+
+
+### Rabin Karp
+
+[28_ImplementstrStr()](./28_ImplementstrStr().py)
+
+
 
 ## Neat Oneliners
 
@@ -48,9 +60,11 @@
 
 [557_ReverseWordsinaStringIII](./557_ReverseWordsinaStringIII.py)
 
-### My first oneliner
+### My oneliners
 
 [977_SquaresofaSortedArray](./977_SquaresofaSortedArray.py)
+
+[28_ImplementstrStr()](./28_ImplementstrStr().py)
 
 ### Zeroliner
 
@@ -64,6 +78,9 @@ Binary Search +1 -1
 BFS queue 
 
 DFS stack
+
+KMP  Rabin Karp  String match
+
 
 
 # Functions and Features
