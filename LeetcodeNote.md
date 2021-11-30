@@ -1,3 +1,13 @@
+## Totally no idea
+
+[53_MaximumSubarray](./53_MaximumSubarray.py)
+
+## Dynamic Programming
+
+[53_MaximumSubarray](./53_MaximumSubarray.py)
+
+
+
 ## Binary Search
 [704_BinarySearch](./704_BinarySearch.py)
 
@@ -60,11 +70,15 @@
 
 [557_ReverseWordsinaStringIII](./557_ReverseWordsinaStringIII.py)
 
+[66_PlusOne](./66_PlusOne.py)
+
 ### My oneliners
 
 [977_SquaresofaSortedArray](./977_SquaresofaSortedArray.py)
 
 [28_ImplementstrStr()](./28_ImplementstrStr().py)
+
+
 
 ### Zeroliner
 
