@@ -15,6 +15,8 @@
 
 [35_SearchInsertPosition](./35_SearchInsertPosition.py)
 
+[69_Sqrtx](./69_Sqrtx.py)
+
 ## Two Pointer
 
 [283_MoveZeros](./283_MoveZeros.py)
@@ -78,7 +80,7 @@
 
 [28_ImplementstrStr()](./28_ImplementstrStr().py)
 
-
+[69_Sqrtx](./69_Sqrtx.py)
 
 ### Zeroliner
 
