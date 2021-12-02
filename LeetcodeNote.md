@@ -41,6 +41,8 @@
 
 [21_MergeTwoSortedLists](./21_MergeTwoSortedLists.py)
 
+[70_ClimbingStars](./70_ClimbingStars.py)
+
 
 ## In-place operation
 
@@ -81,6 +83,8 @@
 [28_ImplementstrStr()](./28_ImplementstrStr().py)
 
 [69_Sqrtx](./69_Sqrtx.py)
+
+[67_AddBinary](./67_AddBinary.py)
 
 ### Zeroliner
 
