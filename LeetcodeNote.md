@@ -33,6 +33,8 @@
 
 [21_MergeTwoSortedLists](./21_MergeTwoSortedLists.py)
 
+[83_RemoveDuplicatesfromSortedList](./83_RemoveDuplicatesfromSortedList.py)
+
 ## Stack
 
 [20_ValidParentheses](./20_ValidParentheses.py)
@@ -43,6 +45,7 @@
 
 [70_ClimbingStars](./70_ClimbingStars.py)
 
+[83_RemoveDuplicatesfromSortedList](./83_RemoveDuplicatesfromSortedList.py)
 
 ## In-place operation
 
