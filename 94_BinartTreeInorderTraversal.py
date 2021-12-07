@@ -8,12 +8,14 @@
 #         self.right = right
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        # # v1 Recursive inorder traversal
-        # if root == None:
-        #     return []
-        # ret=[root.val]
-        # if root.left:
-        #     ret=self.inorderTraversal(root.left)+ret
-        # if root.right:
-        #     ret=ret+self.inorderTraversal(root.right)
-        # return ret
+        # v1 Recursive inorder traversal
+        if root == None:
+            return []
+        ret=[root.val]
+        if root.left:
+            ret=self.inorderTraversal(root.left)+ret
+        if root.right:
+            ret=ret+self.inorderTraversal(root.right)
+        return ret
+
+        # v2 loop, non-recursive

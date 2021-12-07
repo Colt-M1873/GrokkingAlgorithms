@@ -51,6 +51,8 @@
 
 [83_RemoveDuplicatesfromSortedList](./83_RemoveDuplicatesfromSortedList.py)
 
+[1290_ConvertBinaryNumberinaLinkedListtoInterger](./1290_ConvertBinaryNumberinaLinkedListtoInterger.py)
+
 ## Stack
 
 [20_ValidParentheses](./20_ValidParentheses.py)
@@ -63,12 +65,16 @@
 
 [83_RemoveDuplicatesfromSortedList](./83_RemoveDuplicatesfromSortedList.py)
 
+[94_BinartTreeInorderTraversal](./94_BinartTreeInorderTraversal.py)
+
+[100_SameTree](./100_SameTree.py)
+
 
 ## Tree
 
 [94_BinartTreeInorderTraversal](./94_BinartTreeInorderTraversal.py)
 
-
+[100_SameTree](./100_SameTree.py)
 
 ## In-place operation
 
