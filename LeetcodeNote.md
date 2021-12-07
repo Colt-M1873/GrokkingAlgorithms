@@ -2,6 +2,22 @@
 
 [53_MaximumSubarray](./53_MaximumSubarray.py)
 
+## Tricky
+
+[13_RomantoInteger](./13_RomantoInteger.py)
+
+[20_ValidParentheses](./20_ValidParentheses.py)
+
+[70_ClimbingStars](./70_ClimbingStars.py)
+
+[372_SuperPow](./372_SuperPow.py)
+
+
+[1217_MinimumCosttoMoveChipstoTheSamePosition](./1217_MinimumCosttoMoveChipstoTheSamePosition.py)
+
+
+
+
 ## Dynamic Programming
 
 [53_MaximumSubarray](./53_MaximumSubarray.py)
@@ -47,6 +63,13 @@
 
 [83_RemoveDuplicatesfromSortedList](./83_RemoveDuplicatesfromSortedList.py)
 
+
+## Tree
+
+[94_BinartTreeInorderTraversal](./94_BinartTreeInorderTraversal.py)
+
+
+
 ## In-place operation
 
 [26_RemoveDuplicatesfromSortedArray](./26_RemoveDuplicatesfromSortedArray.py)
@@ -88,6 +111,8 @@
 [69_Sqrtx](./69_Sqrtx.py)
 
 [67_AddBinary](./67_AddBinary.py)
+
+[88_MergeSortedArray](./88_MergeSortedArray.py)
 
 ### Zeroliner
 
