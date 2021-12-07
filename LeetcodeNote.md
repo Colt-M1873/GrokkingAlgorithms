@@ -57,6 +57,8 @@
 
 [20_ValidParentheses](./20_ValidParentheses.py)
 
+[94_BinartTreeInorderTraversal](./94_BinartTreeInorderTraversal.py)
+
 ## Recursion
 
 [21_MergeTwoSortedLists](./21_MergeTwoSortedLists.py)
@@ -107,6 +109,8 @@
 [557_ReverseWordsinaStringIII](./557_ReverseWordsinaStringIII.py)
 
 [66_PlusOne](./66_PlusOne.py)
+
+[100_SameTree](./100_SameTree.py)
 
 ### My oneliners
 

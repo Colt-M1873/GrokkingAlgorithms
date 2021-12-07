@@ -27,3 +27,20 @@ class Solution:
         return self.isSameTree(p.left,q.left) and self.isSameTree(p.right , q.right)
 
         # v2 iteretive  non-recursive
+
+
+
+
+
+        # # v3 Stefan Pochmann 
+        # if p and q:
+        #     return p.val == q.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+        # return p is q
+
+        # # v3.1 Stefan Pochmann 
+        # def t(n):
+        #     return n and (n.val, t(n.left), t(n.right))
+        # return t(p) == t(q)
+
+        # # v3.2 sick oneliner by Stefan Pochmann
+        # return p and q and p.val == q.val and all(map(self.isSameTree, (p.left, p.right), (q.left, q.right))) or p is q
