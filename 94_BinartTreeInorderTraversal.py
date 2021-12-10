@@ -19,8 +19,6 @@ class Solution:
         # return ret
 
         # v2 copied iterative, non-recursive using stack
-        if root==None:
-            return []
         ret =[]
         stack=[]
         while stack or root:

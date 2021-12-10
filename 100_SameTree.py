@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/same-tree/
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -17,20 +19,30 @@ class Solution:
         # else :
         #     return False
 
-        # v1.1 copied recursion  more clear
-        if not p and not q: # p and q are both None
-            return True
-        if not p or not q: # one of p and q is None
-            return False
-        if p.val!=q.val:
-            return False
-        return self.isSameTree(p.left,q.left) and self.isSameTree(p.right , q.right)
+        # # v1.1 copied recursion  more clear
+        # if not p and not q: # p and q are both None
+        #     return True
+        # if not p or not q: # one of p and q is None
+        #     return False
+        # if p.val!=q.val:
+        #     return False
+        # return self.isSameTree(p.left,q.left) and self.isSameTree(p.right , q.right)
 
-        # v2 iteretive  non-recursive
-
-
-
-
+        # v2 copied  iteretive  non-recursive using stack, clear and brilliant
+        stack=[(p,q)]
+        while stack:
+            x,y=stack.pop()
+            if not x and not y:
+                continue
+            if not (x and y):
+                return False
+            if x and y:
+                if x.val==y.val:
+                    stack.append((x.left,y.left))
+                    stack.append((x.right,y.right))
+                else:
+                    return False
+        return True
 
         # # v3 Stefan Pochmann 
         # if p and q:
