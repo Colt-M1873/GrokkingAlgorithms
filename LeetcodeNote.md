@@ -2,6 +2,9 @@
 
 [53_MaximumSubarray](./53_MaximumSubarray.py)
 
+[108_ConvertSotedArraytoBinarySearchTree](./108_ConvertSotedArraytoBinarySearchTree.py)
+
+
 ## Tricky
 
 [13_RomantoInteger](./13_RomantoInteger.py)
@@ -11,7 +14,6 @@
 [70_ClimbingStars](./70_ClimbingStars.py)
 
 [372_SuperPow](./372_SuperPow.py)
-
 
 [1217_MinimumCosttoMoveChipstoTheSamePosition](./1217_MinimumCosttoMoveChipstoTheSamePosition.py)
 
@@ -53,11 +55,24 @@
 
 [1290_ConvertBinaryNumberinaLinkedListtoInterger](./1290_ConvertBinaryNumberinaLinkedListtoInterger.py)
 
+
+
 ## Stack
 
 [20_ValidParentheses](./20_ValidParentheses.py)
 
 [94_BinartTreeInorderTraversal](./94_BinartTreeInorderTraversal.py)
+
+[100_SameTree](./100_SameTree.py)
+
+[101_SymmetricTree](./101_SymmetricTree.py)
+
+
+## Queue
+
+[104_MaximumDepthofBinaryTree](./104_MaximumDepthofBinaryTree.py)
+
+[111_MinimumDepthofBinaryTree](./111_MinimumDepthofBinaryTree.py)
 
 ## Recursion
 
@@ -71,12 +86,26 @@
 
 [100_SameTree](./100_SameTree.py)
 
+[101_SymmetricTree](./101_SymmetricTree.py)
+
+[104_MaximumDepthofBinaryTree](./104_MaximumDepthofBinaryTree.py)
+
+[108_ConvertSotedArraytoBinarySearchTree](./108_ConvertSotedArraytoBinarySearchTree.py)
+
+[111_MinimumDepthofBinaryTree](./111_MinimumDepthofBinaryTree.py)
 
 ## Tree
 
 [94_BinartTreeInorderTraversal](./94_BinartTreeInorderTraversal.py)
 
 [100_SameTree](./100_SameTree.py)
+
+[101_SymmetricTree](./101_SymmetricTree.py)
+
+[104_MaximumDepthofBinaryTree](./104_MaximumDepthofBinaryTree.py)
+
+[108_ConvertSotedArraytoBinarySearchTree](./108_ConvertSotedArraytoBinarySearchTree.py)
+
 
 ## In-place operation
 
@@ -111,6 +140,8 @@
 [66_PlusOne](./66_PlusOne.py)
 
 [100_SameTree](./100_SameTree.py)
+
+[104_MaximumDepthofBinaryTree](./104_MaximumDepthofBinaryTree.py)
 
 ### My oneliners
 
