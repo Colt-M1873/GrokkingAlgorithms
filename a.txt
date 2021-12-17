@@ -42,3 +42,5 @@ ping baidu.com
 ping baidu.com 
 21.12.14 周二 15:50:22.42
 ping baidu.com 
+21.12.17 周五 12:31:16.73
+ping baidu.com 

@@ -67,6 +67,7 @@
 
 [101_SymmetricTree](./101_SymmetricTree.py)
 
+[112_PathSum](./112_PathSum.py)
 
 ## Queue
 
@@ -94,6 +95,8 @@
 
 [111_MinimumDepthofBinaryTree](./111_MinimumDepthofBinaryTree.py)
 
+[112_PathSum](./112_PathSum.py)
+
 ## Tree
 
 [94_BinartTreeInorderTraversal](./94_BinartTreeInorderTraversal.py)
@@ -106,6 +109,11 @@
 
 [108_ConvertSotedArraytoBinarySearchTree](./108_ConvertSotedArraytoBinarySearchTree.py)
 
+[111_MinimumDepthofBinaryTree](./111_MinimumDepthofBinaryTree.py)
+
+[112_PathSum](./112_PathSum.py)
+
+[938_RangeSumofBST](./938_RangeSumofBST.py)
 
 ## In-place operation
 

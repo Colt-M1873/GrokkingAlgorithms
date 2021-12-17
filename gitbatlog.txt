@@ -144,3 +144,33 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 3a18af7] mostly Leetcode problems solved, commited and pushed by bat
+ 7 files changed, 263 insertions(+), 72 deletions(-)
+ create mode 100644 807_MaxIncreasetoKeepCitySkyline.py
+ create mode 100644 938_RangeSumofBST.py
+ rewrite Drafts.py (98%)
+ create mode 100644 Unfinished_112_PathSum.py
+ create mode 100644 Unfinished_416_PartitionEqualSubsetSum.py
+git push origin master 
+
+21.12.17 ÷‹ŒÂ 12:31:16.73
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   LeetcodeNote.md
+	deleted:    Unfinished_112_PathSum.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	112_PathSum.py
+	118 _PascalsTriangle.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
