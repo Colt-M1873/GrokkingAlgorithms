@@ -17,7 +17,7 @@
 
 [1217_MinimumCosttoMoveChipstoTheSamePosition](./1217_MinimumCosttoMoveChipstoTheSamePosition.py)
 
-
+[121_BestTimetoBuyandSellStock](./121_BestTimetoBuyandSellStock.py)
 
 
 ## Dynamic Programming
@@ -115,11 +115,17 @@
 
 [938_RangeSumofBST](./938_RangeSumofBST.py)
 
-## In-place operation
+## In-place Operation
 
 [26_RemoveDuplicatesfromSortedArray](./26_RemoveDuplicatesfromSortedArray.py)
 
 [344_ReverseString](./344_ReverseString.py)
+
+
+
+## Bitwise Operation
+
+[231_PowerofTwo](./231_PowerofTwo.py)
 
 
 ## String Match
@@ -150,6 +156,8 @@
 [100_SameTree](./100_SameTree.py)
 
 [104_MaximumDepthofBinaryTree](./104_MaximumDepthofBinaryTree.py)
+
+[231_PowerofTwo](./231_PowerofTwo.py)
 
 ### My oneliners
 

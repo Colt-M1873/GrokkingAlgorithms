@@ -70,5 +70,7 @@
 # print(a)
 # if a and b:
 #     print(1)
+a=[]
 for i in range(5):
-    print(i)
+    a.append(i)
+print(a[4:5])
