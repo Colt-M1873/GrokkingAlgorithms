@@ -24,7 +24,7 @@
 
 [53_MaximumSubarray](./53_MaximumSubarray.py)
 
-
+[300_LongestIncreasingSubsequence](./300_LongestIncreasingSubsequence.py)
 
 ## Binary Search
 [704_BinarySearch](./704_BinarySearch.py)
@@ -131,6 +131,8 @@
 ## String Match
 
 ### KMP
+
+https://oi-wiki.org/string/kmp/
 
 [28_ImplementstrStr()](./28_ImplementstrStr().py)
 
