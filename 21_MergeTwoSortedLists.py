@@ -1,4 +1,6 @@
 # https://leetcode.com/problems/merge-two-sorted-lists/
+# 2021 11.23 2022 3.10
+
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -65,12 +67,39 @@ class Solution:
         #     a.next = self.mergeTwoLists(a.next, b)
         # return a
 
-        # v2.2 copied   elegant recursive method
-        # If both lists are non-empty, I first make sure l1 starts smaller, use its head as result, and merge the remainders behind it. Otherwise, i.e., if one or both are empty, I just return what's there.
-        if l1 and l2:
-            if l1.val > l2.val:
-                l1, l2 = l2, l1
-            l1.next = self.mergeTwoLists(l1.next, l2)
-        return l1 or l2
+        # # v2.2 copied   elegant recursive method
+        # # If both lists are non-empty, I first make sure l1 starts smaller, use its head as result, and merge the remainders behind it. Otherwise, i.e., if one or both are empty, I just return what's there.
+        # if l1 and l2:
+        #     if l1.val > l2.val:
+        #         l1, l2 = l2, l1
+        #     l1.next = self.mergeTwoLists(l1.next, l2)
+        # return l1 or l2
 
+        # # 3.10 iterative, jump back and forth between two listnodes.
+        # if not l1 or not l2:
+        #     return l1 or l2
+        # if l1.val<l2.val:
+        #     head=l1
+        #     tmp_next=l2
+        # else:
+        #     head=l2
+        #     tmp_next=l1
+        # ret=head
+        # while head.next:
+        #     if head.next.val<=tmp_next.val:
+        #         head=head.next
+        #     else:
+        #         tmp_head=head.next
+        #         head.next=tmp_next
+        #         tmp_next=tmp_head
+        # head.next=tmp_next
+        # return ret
 
+        # 3.10 recursive, return min among current two nodes. 
+        if not l1 or not l2:
+            return l1 or l2
+        a,b=l1,l2
+        if l1.val>l2.val:
+            a,b=l2,l1
+        a.next=self.mergeTwoLists(a.next,b)
+        return a

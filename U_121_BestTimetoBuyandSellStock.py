@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+# 2021 12.18 2022 3.10
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -78,8 +79,17 @@ class Solution:
         #         currmaxprofit=prices[currIdx]-currmin
         # return currmaxprofit
 
-        # v2.1 copied clean and elegant, 1124ms
-        buy, ans = float('inf'), 0
-        for p in prices:
-            buy, ans = min(buy, p), max(ans, p-buy)
-        return ans
+        # # v2.1 copied clean and elegant, 1124ms
+        # buy, ans = float('inf'), 0
+        # for p in prices:
+        #     buy, ans = min(buy, p), max(ans, p-buy)
+        # return ans
+
+
+        # 03.10 dp with minimum array, 1518ms, slow
+        dp=[0]*len(prices)
+        currmin=prices.copy()
+        for i in range(1, len(prices)):
+            currmin[i]=min(currmin[i],currmin[i-1])
+            dp[i]=max(dp[i-1],prices[i]-currmin[i])
+        return max(dp)
