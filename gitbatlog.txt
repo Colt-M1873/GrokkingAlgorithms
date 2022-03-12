@@ -309,3 +309,31 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master e7f4d8d] mostly Leetcode problems solved, commited and pushed by bat
+ 5 files changed, 112 insertions(+)
+ create mode 100644 141_LinkedListCycle.py
+ create mode 100644 160_IntersectionofTwoLinkedLists.py
+git push origin master 
+
+2022.03.12 ÷‹¡˘ 21:36:05.65
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   160_IntersectionofTwoLinkedLists.py
+	modified:   CodeTop.md
+	modified:   LeetcodeNote.md
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	206_ReverseLinkedList.cc
+	U_138_CopyListwithRandomPointer.cc
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 

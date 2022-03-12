@@ -26,6 +26,13 @@
 
 [300_LongestIncreasingSubsequence](./300_LongestIncreasingSubsequence.py)
 
+42[]
+
+## Hashmap
+
+138[]
+
+
 ## Binary Search
 [704_BinarySearch](./704_BinarySearch.py)
 
@@ -56,6 +63,11 @@
 [1290_ConvertBinaryNumberinaLinkedListtoInterger](./1290_ConvertBinaryNumberinaLinkedListtoInterger.py)
 
 
+[141_LinkedListCycle](./141_LinkedListCycle.py)
+
+[160_IntersectionofTwoLinkedLists](./160_IntersectionofTwoLinkedLists.py)
+
+138[]
 
 ## Stack
 
