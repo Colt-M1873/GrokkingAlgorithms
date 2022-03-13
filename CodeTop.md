@@ -42,4 +42,8 @@
     链表循环，计算长度
     hashmap `unordered_map<int, str> umap;` 类似于python字典
 
+**3.13**
 
+20 有效括号 Stack
+
+1 两数相加 Hashmap

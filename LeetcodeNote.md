@@ -30,7 +30,11 @@
 
 ## Hashmap
 
+[1_TwoSum](./1_TwoSum.py)
+
 138[]
+
+
 
 
 ## Binary Search
