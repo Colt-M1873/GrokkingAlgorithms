@@ -85,6 +85,9 @@
 
 [112_PathSum](./112_PathSum.py)
 
+[71_SimplifyPath](./71_SimplifyPath.py7)
+
+
 ## Queue
 
 [104_MaximumDepthofBinaryTree](./104_MaximumDepthofBinaryTree.py)
@@ -143,6 +146,10 @@
 
 [231_PowerofTwo](./231_PowerofTwo.py)
 
+
+## String
+
+[71_SimplifyPath](./71_SimplifyPath.py)
 
 ## String Match
 
