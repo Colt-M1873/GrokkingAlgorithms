@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/merge-sorted-array/
-# 2021 12.07
+# 2021 12.07 2022 3.20 3.21
+
 class Solution:
     def merge(self, nums1: list, m: int, nums2: list, n: int) -> None:
         """
@@ -31,17 +32,20 @@ class Solution:
             for j in range(i+1,m+n):
                 if nums1[i]>nums1[j]:
                     nums1[i],nums1[j]=nums1[j],nums1[i]
-        return nums1
 
-        # v4 two pointer to be finisied
-
+        # 2022 3.21
+        # v4 two pointer copied,one pass, super fast
+        # https://leetcode.com/problems/merge-sorted-array/discuss/29503/Beautiful-Python-Solution
+        # 因为大头全是0，所以可以双指针从大到小排列而不损失nums1中的信息
+        while m>0 and n>0:
+            if nums1[m-1]>nums2[n-1]:
+                nums1[m+n-1]=nums1[m-1]
+                m-=1
+            else:
+                nums1[m+n-1]=nums2[n-1]
+                n-=1
+        if n>0:
+            nums1[:n]=nums2[:n]
         
         
-
-
-# s=Solution()
-# a=[1,2,3,0,0,0]
-# m=0
-# b=[2,5,6]
-# n=3
-# print(s.merge(a,m,b,n))
+     

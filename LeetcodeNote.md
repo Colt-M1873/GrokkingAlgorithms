@@ -56,6 +56,11 @@
 
 [344_ReverseString](./344_ReverseString.py)
 
+
+Backwards two pointer
+[88_MergeSortedArray](./88_MergeSortedArray.py)
+
+
 ## Listnode
 
 [2_AddTwoNumbers](./2_AddTwoNumbers.py)

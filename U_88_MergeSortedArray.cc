@@ -27,10 +27,8 @@ public:
                     nums1[p1]=nums1[p2];
                     nums1[p2]=tmp;
                 }
-                
             }
             p1++;
-            
         }
         return ;
     }
