@@ -506,3 +506,106 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 7de3ad7] mostly Leetcode problems solved, commited and pushed by bat
+ 6 files changed, 155 insertions(+), 1 deletion(-)
+ create mode 100644 141_LinkedListCycle.cc
+ create mode 100644 142_LinkedListCycleII.cc
+ create mode 100644 19_RemoveNthNodeFromEndofList.cc
+git push origin master 
+
+2022.03.22 ÖÜ¶þ 12:08:02.04
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    100_SameTree.py
+	deleted:    1015_SmallestDivisiblebyK.py
+	deleted:    101_SymmetricTree.py
+	deleted:    104_MaximumDepthofBinaryTree.py
+	deleted:    108_ConvertSotedArraytoBinarySearchTree.py
+	deleted:    110_BalancedBinaryTree.py
+	deleted:    111_MinimumDepthofBinaryTree.py
+	deleted:    112_PathSum.py
+	deleted:    118 _PascalsTriangle.py
+	deleted:    119_PascalsTriangleII.py
+	deleted:    1217_MinimumCosttoMoveChipstoTheSamePosition.py
+	deleted:    1290_ConvertBinaryNumberinaLinkedListtoInterger.py
+	deleted:    13_RomantoInteger.py
+	deleted:    141_LinkedListCycle.cc
+	deleted:    141_LinkedListCycle.py
+	deleted:    142_LinkedListCycleII.cc
+	deleted:    14_LongestCommonPrefix.py
+	deleted:    160_IntersectionofTwoLinkedLists.py
+	deleted:    167_TwoSumII_InputArrayisSorted.py
+	deleted:    19_RemoveNthNodeFromEndofList.cc
+	deleted:    1_TwoSum.cc
+	deleted:    1_TwoSum.py
+	deleted:    203_RemoveLinkedListElement.py
+	deleted:    206_ReverseLinkedList.cc
+	deleted:    206_ReverseLinkedList.py
+	deleted:    20_ValidParentheses.cc
+	deleted:    20_ValidParentheses.py
+	deleted:    21_MergeTwoSortedLists.py
+	deleted:    231_PowerofTwo.py
+	deleted:    26_RemoveDuplicatesfromSortedArray.py
+	deleted:    278_FirstBadVersion.py
+	deleted:    27_RemoveElement.py
+	deleted:    283_MoveZeros.py
+	deleted:    28_ImplementstrStr().py
+	deleted:    2_AddTwoNumbers.py
+	deleted:    344_ReverseString.py
+	deleted:    35_SearchInsertPosition.py
+	deleted:    372_SuperPow.py
+	deleted:    53_MaximumSubarray.py
+	deleted:    557_ReverseWordsinaStringIII.py
+	deleted:    58_LengthofLastWord.py
+	deleted:    66_PlusOne.py
+	deleted:    67_AddBinary.py
+	deleted:    69_Sqrtx.py
+	deleted:    704_BinarySearch.py
+	deleted:    70_ClimbingStars.py
+	deleted:    71_SimplifyPath.py
+	deleted:    7_ReverseInteger.py
+	deleted:    807_MaxIncreasetoKeepCitySkyline.py
+	deleted:    83_RemoveDuplicatesfromSortedList.py
+	deleted:    88_MergeSortedArray.py
+	deleted:    938_RangeSumofBST.py
+	deleted:    94_BinartTreeInorderTraversal.py
+	deleted:    977_SquaresofaSortedArray.py
+	deleted:    9_PalindromeNumber.py
+	deleted:    BFS&DFS.py
+	deleted:    BinarySearch.py
+	modified:   CodeTop.md
+	deleted:    Dict&Set.py
+	deleted:    Drafts.py
+	modified:   LeetcodeNote.md
+	deleted:    Playground.py
+	deleted:    QuickSort.py
+	deleted:    Recursion.py
+	deleted:    SelectionSort.py
+	deleted:    U_1200_MinimumAbsoluteDifference.py
+	deleted:    U_121_BestTimetoBuyandSellStock.py
+	deleted:    U_1249_MinimumRemoveToMakeValidParenthesis.py
+	deleted:    U_138_CopyListwithRandomPointer.cc
+	deleted:    U_1994_TheNumberofGoodSubsets.py
+	deleted:    U_300_LongestIncreasingSubsequence.py
+	deleted:    U_316_RemoveDuplicateLetters.py
+	deleted:    U_394_DecodeString.py
+	deleted:    U_42_TrappingRainWater.py
+	deleted:    U_88_MergeSortedArray.cc
+	deleted:    U_946_ValidateStackSequences.py
+	deleted:    Unfinished_416_PartitionEqualSubsetSum.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	AlgorithmScript/
+	LeetCode/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
