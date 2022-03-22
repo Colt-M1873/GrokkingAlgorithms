@@ -478,3 +478,31 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 86f08a5] mostly Leetcode problems solved, commited and pushed by bat
+ 9 files changed, 72 insertions(+), 19 deletions(-)
+ rename U_88_MergeSortedArray.py => 88_MergeSortedArray.py (64%)
+ rename 1249_MinimumRemoveToMakeValidParenthesis.py => U_1249_MinimumRemoveToMakeValidParenthesis.py (100%)
+ rename 946_ValidateStackSequences.py => U_946_ValidateStackSequences.py (100%)
+git push origin master 
+
+2022.03.22 ÖÜ¶þ 11:41:35.56
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   CodeTop.md
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	141_LinkedListCycle.cc
+	142_LinkedListCycleII.cc
+	19_RemoveNthNodeFromEndofList.cc
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
