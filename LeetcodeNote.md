@@ -57,6 +57,12 @@
 [344_ReverseString](./LeetCode/344_ReverseString.py)
 
 
+[26_RemoveDuplicatesfromSortedArray](./LeetCode/26_RemoveDuplicatesfromSortedArray.py)
+
+
+[19_RemoveNthNodeFromEndofList](./LeetCode/19_RemoveNthNodeFromEndofList.cc)
+
+
 Backwards two pointer
 [88_MergeSortedArray](./LeetCode/88_MergeSortedArray.py)
 

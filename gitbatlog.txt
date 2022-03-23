@@ -609,3 +609,105 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 9ad0438] mostly Leetcode problems solved, commited and pushed by bat
+ 79 files changed, 339 insertions(+), 230 deletions(-)
+ rename BFS&DFS.py => AlgorithmScript/BFS&DFS.py (100%)
+ rename BinarySearch.py => AlgorithmScript/BinarySearch.py (100%)
+ rename Dict&Set.py => AlgorithmScript/Dict&Set.py (100%)
+ rename Drafts.py => AlgorithmScript/Drafts.py (100%)
+ rename Playground.py => AlgorithmScript/Playground.py (100%)
+ rename QuickSort.py => AlgorithmScript/QuickSort.py (100%)
+ rename Recursion.py => AlgorithmScript/Recursion.py (100%)
+ rename SelectionSort.py => AlgorithmScript/SelectionSort.py (100%)
+ rename 100_SameTree.py => LeetCode/100_SameTree.py (100%)
+ rename 1015_SmallestDivisiblebyK.py => LeetCode/1015_SmallestDivisiblebyK.py (100%)
+ rename 101_SymmetricTree.py => LeetCode/101_SymmetricTree.py (100%)
+ rename 104_MaximumDepthofBinaryTree.py => LeetCode/104_MaximumDepthofBinaryTree.py (100%)
+ rename 108_ConvertSotedArraytoBinarySearchTree.py => LeetCode/108_ConvertSotedArraytoBinarySearchTree.py (100%)
+ rename 110_BalancedBinaryTree.py => LeetCode/110_BalancedBinaryTree.py (100%)
+ rename 111_MinimumDepthofBinaryTree.py => LeetCode/111_MinimumDepthofBinaryTree.py (100%)
+ rename 112_PathSum.py => LeetCode/112_PathSum.py (100%)
+ rename 118 _PascalsTriangle.py => LeetCode/118 _PascalsTriangle.py (100%)
+ rename 119_PascalsTriangleII.py => LeetCode/119_PascalsTriangleII.py (100%)
+ rename 1217_MinimumCosttoMoveChipstoTheSamePosition.py => LeetCode/1217_MinimumCosttoMoveChipstoTheSamePosition.py (100%)
+ rename 1290_ConvertBinaryNumberinaLinkedListtoInterger.py => LeetCode/1290_ConvertBinaryNumberinaLinkedListtoInterger.py (100%)
+ rename 13_RomantoInteger.py => LeetCode/13_RomantoInteger.py (100%)
+ rename 141_LinkedListCycle.cc => LeetCode/141_LinkedListCycle.cc (100%)
+ rename 141_LinkedListCycle.py => LeetCode/141_LinkedListCycle.py (100%)
+ rename 142_LinkedListCycleII.cc => LeetCode/142_LinkedListCycleII.cc (100%)
+ rename 14_LongestCommonPrefix.py => LeetCode/14_LongestCommonPrefix.py (100%)
+ rename 160_IntersectionofTwoLinkedLists.py => LeetCode/160_IntersectionofTwoLinkedLists.py (100%)
+ rename 167_TwoSumII_InputArrayisSorted.py => LeetCode/167_TwoSumII_InputArrayisSorted.py (100%)
+ rename 19_RemoveNthNodeFromEndofList.cc => LeetCode/19_RemoveNthNodeFromEndofList.cc (100%)
+ rename 1_TwoSum.cc => LeetCode/1_TwoSum.cc (100%)
+ rename 1_TwoSum.py => LeetCode/1_TwoSum.py (100%)
+ rename 203_RemoveLinkedListElement.py => LeetCode/203_RemoveLinkedListElement.py (100%)
+ rename 206_ReverseLinkedList.cc => LeetCode/206_ReverseLinkedList.cc (100%)
+ rename 206_ReverseLinkedList.py => LeetCode/206_ReverseLinkedList.py (100%)
+ rename 20_ValidParentheses.cc => LeetCode/20_ValidParentheses.cc (100%)
+ rename 20_ValidParentheses.py => LeetCode/20_ValidParentheses.py (100%)
+ rename 21_MergeTwoSortedLists.py => LeetCode/21_MergeTwoSortedLists.py (100%)
+ rename 231_PowerofTwo.py => LeetCode/231_PowerofTwo.py (100%)
+ rename 26_RemoveDuplicatesfromSortedArray.py => LeetCode/26_RemoveDuplicatesfromSortedArray.py (100%)
+ rename 278_FirstBadVersion.py => LeetCode/278_FirstBadVersion.py (100%)
+ rename 27_RemoveElement.py => LeetCode/27_RemoveElement.py (100%)
+ rename 283_MoveZeros.py => LeetCode/283_MoveZeros.py (100%)
+ rename 28_ImplementstrStr().py => LeetCode/28_ImplementstrStr().py (100%)
+ rename 2_AddTwoNumbers.py => LeetCode/2_AddTwoNumbers.py (100%)
+ rename 344_ReverseString.py => LeetCode/344_ReverseString.py (100%)
+ rename 35_SearchInsertPosition.py => LeetCode/35_SearchInsertPosition.py (100%)
+ rename 372_SuperPow.py => LeetCode/372_SuperPow.py (100%)
+ rename 53_MaximumSubarray.py => LeetCode/53_MaximumSubarray.py (100%)
+ rename 557_ReverseWordsinaStringIII.py => LeetCode/557_ReverseWordsinaStringIII.py (100%)
+ rename 58_LengthofLastWord.py => LeetCode/58_LengthofLastWord.py (100%)
+ rename 66_PlusOne.py => LeetCode/66_PlusOne.py (100%)
+ rename 67_AddBinary.py => LeetCode/67_AddBinary.py (100%)
+ rename 69_Sqrtx.py => LeetCode/69_Sqrtx.py (100%)
+ rename 704_BinarySearch.py => LeetCode/704_BinarySearch.py (100%)
+ rename 70_ClimbingStars.py => LeetCode/70_ClimbingStars.py (100%)
+ rename 71_SimplifyPath.py => LeetCode/71_SimplifyPath.py (100%)
+ rename 7_ReverseInteger.py => LeetCode/7_ReverseInteger.py (100%)
+ rename 807_MaxIncreasetoKeepCitySkyline.py => LeetCode/807_MaxIncreasetoKeepCitySkyline.py (100%)
+ rename 83_RemoveDuplicatesfromSortedList.py => LeetCode/83_RemoveDuplicatesfromSortedList.py (100%)
+ rename 88_MergeSortedArray.py => LeetCode/88_MergeSortedArray.py (100%)
+ rename 938_RangeSumofBST.py => LeetCode/938_RangeSumofBST.py (100%)
+ rename 94_BinartTreeInorderTraversal.py => LeetCode/94_BinartTreeInorderTraversal.py (100%)
+ rename 977_SquaresofaSortedArray.py => LeetCode/977_SquaresofaSortedArray.py (100%)
+ rename 9_PalindromeNumber.py => LeetCode/9_PalindromeNumber.py (100%)
+ rename U_1200_MinimumAbsoluteDifference.py => LeetCode/U_1200_MinimumAbsoluteDifference.py (100%)
+ rename U_121_BestTimetoBuyandSellStock.py => LeetCode/U_121_BestTimetoBuyandSellStock.py (100%)
+ rename U_1249_MinimumRemoveToMakeValidParenthesis.py => LeetCode/U_1249_MinimumRemoveToMakeValidParenthesis.py (100%)
+ rename U_138_CopyListwithRandomPointer.cc => LeetCode/U_138_CopyListwithRandomPointer.cc (100%)
+ rename U_1994_TheNumberofGoodSubsets.py => LeetCode/U_1994_TheNumberofGoodSubsets.py (100%)
+ rename U_300_LongestIncreasingSubsequence.py => LeetCode/U_300_LongestIncreasingSubsequence.py (100%)
+ rename U_316_RemoveDuplicateLetters.py => LeetCode/U_316_RemoveDuplicateLetters.py (100%)
+ rename U_394_DecodeString.py => LeetCode/U_394_DecodeString.py (100%)
+ rename U_42_TrappingRainWater.py => LeetCode/U_42_TrappingRainWater.py (100%)
+ rename U_88_MergeSortedArray.cc => LeetCode/U_88_MergeSortedArray.cc (100%)
+ rename U_946_ValidateStackSequences.py => LeetCode/U_946_ValidateStackSequences.py (100%)
+ rename Unfinished_416_PartitionEqualSubsetSum.py => LeetCode/Unfinished_416_PartitionEqualSubsetSum.py (100%)
+ rewrite LeetcodeNote.md (85%)
+git push origin master 
+
+2022.03.23 ÖÜÈý 22:57:12.07
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   CodeTop.md
+	modified:   LeetCode/19_RemoveNthNodeFromEndofList.cc
+	modified:   LeetcodeNote.md
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/237_DeleteNodeinaLinkedList.cc
+	LeetCode/415_AddStrings.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 

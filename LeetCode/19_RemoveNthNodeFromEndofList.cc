@@ -14,19 +14,36 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-
-        // v1 two pointer count length
+        // // v1 two pointer count length
+        // ListNode* tmp,*fast=head,*slow=head;
+        // int length=0;
+        // while(fast){
+        //     fast=fast->next;
+        //     length++;
+        // }
+        // int l2=length-n;
+        // if(l2==0) {return head->next;}
+        // while(l2-1>0){
+        //     slow=slow->next;
+        //     l2--;
+        // }
+        // tmp=slow->next->next;
+        // slow->next->next=NULL;
+        // slow->next=tmp;
+        // return head;
+        
+        // v1.1 standard two pointer without counting length
         ListNode* tmp,*fast=head,*slow=head;
-        int length=0;
+        
+        for(n;n>=0;n--){
+            if(fast)
+                fast=fast->next;
+            else
+                return head->next;
+        }
         while(fast){
             fast=fast->next;
-            length++;
-        }
-        int l2=length-n;
-        if(l2==0) {return head->next;}
-        while(l2-1>0){
             slow=slow->next;
-            l2--;
         }
         tmp=slow->next->next;
         slow->next->next=NULL;
