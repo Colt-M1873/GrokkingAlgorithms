@@ -84,6 +84,9 @@ Backwards two pointer
 
 138[]
 
+[876_MiddleoftheLinkedList](./LeetCode/876_MiddleoftheLinkedList.py)
+
+
 ## Stack
 
 [20_ValidParentheses](./LeetCode/20_ValidParentheses.py)
