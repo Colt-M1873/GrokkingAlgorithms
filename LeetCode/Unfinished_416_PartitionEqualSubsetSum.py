@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/partition-equal-subset-sum/
+# 2021 12.12
 
 # Knapsack(Backpack) prblems, guide:
 # https://leetcode.com/discuss/study-guide/1200320/Thief-with-a-knapsack-a-series-of-crimes.

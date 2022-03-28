@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/pascals-triangle-ii/
+# 2021 12.17
 
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:

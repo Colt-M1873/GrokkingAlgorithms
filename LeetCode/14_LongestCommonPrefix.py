@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/longest-common-prefix/submissions/
+# 2021 11.21
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:

@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/super-pow/
+# 2021 12.07
 
 class Solution:  
     def superPow(self, a: int, b: List[int]) -> int:

@@ -777,3 +777,81 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 7a1a561] mostly Leetcode problems solved, commited and pushed by bat
+ 6 files changed, 164 insertions(+), 1 deletion(-)
+ create mode 100644 LeetCode/21_MergeTwoSortedLists.cc
+ create mode 100644 LeetCode/409_LongestPalindrome.py
+git push origin master 
+
+2022.03.28 ÷‹“ª 21:45:07.46
+git status 
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    CodeTop.md
+	modified:   LeetCode/100_SameTree.py
+	modified:   LeetCode/1015_SmallestDivisiblebyK.py
+	modified:   LeetCode/101_SymmetricTree.py
+	modified:   LeetCode/104_MaximumDepthofBinaryTree.py
+	modified:   LeetCode/108_ConvertSotedArraytoBinarySearchTree.py
+	modified:   LeetCode/110_BalancedBinaryTree.py
+	modified:   LeetCode/111_MinimumDepthofBinaryTree.py
+	modified:   LeetCode/112_PathSum.py
+	modified:   LeetCode/118 _PascalsTriangle.py
+	modified:   LeetCode/119_PascalsTriangleII.py
+	modified:   LeetCode/1217_MinimumCosttoMoveChipstoTheSamePosition.py
+	modified:   LeetCode/1290_ConvertBinaryNumberinaLinkedListtoInterger.py
+	modified:   LeetCode/13_RomantoInteger.py
+	modified:   LeetCode/14_LongestCommonPrefix.py
+	modified:   LeetCode/167_TwoSumII_InputArrayisSorted.py
+	modified:   LeetCode/1_TwoSum.py
+	modified:   LeetCode/203_RemoveLinkedListElement.py
+	modified:   LeetCode/206_ReverseLinkedList.py
+	modified:   LeetCode/20_ValidParentheses.py
+	modified:   LeetCode/231_PowerofTwo.py
+	modified:   LeetCode/26_RemoveDuplicatesfromSortedArray.py
+	modified:   LeetCode/278_FirstBadVersion.py
+	modified:   LeetCode/27_RemoveElement.py
+	modified:   LeetCode/283_MoveZeros.py
+	modified:   LeetCode/28_ImplementstrStr().py
+	modified:   LeetCode/2_AddTwoNumbers.py
+	modified:   LeetCode/344_ReverseString.py
+	modified:   LeetCode/35_SearchInsertPosition.py
+	modified:   LeetCode/372_SuperPow.py
+	modified:   LeetCode/557_ReverseWordsinaStringIII.py
+	modified:   LeetCode/58_LengthofLastWord.py
+	modified:   LeetCode/66_PlusOne.py
+	modified:   LeetCode/67_AddBinary.py
+	modified:   LeetCode/69_Sqrtx.py
+	modified:   LeetCode/704_BinarySearch.py
+	modified:   LeetCode/70_ClimbingStars.py
+	modified:   LeetCode/7_ReverseInteger.py
+	modified:   LeetCode/807_MaxIncreasetoKeepCitySkyline.py
+	modified:   LeetCode/83_RemoveDuplicatesfromSortedList.py
+	modified:   LeetCode/938_RangeSumofBST.py
+	modified:   LeetCode/94_BinartTreeInorderTraversal.py
+	modified:   LeetCode/977_SquaresofaSortedArray.py
+	modified:   LeetCode/9_PalindromeNumber.py
+	modified:   LeetCode/U_1200_MinimumAbsoluteDifference.py
+	modified:   LeetCode/U_1994_TheNumberofGoodSubsets.py
+	modified:   LeetCode/U_300_LongestIncreasingSubsequence.py
+	modified:   LeetCode/U_394_DecodeString.py
+	modified:   LeetCode/U_42_TrappingRainWater.py
+	modified:   LeetCode/Unfinished_416_PartitionEqualSubsetSum.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Daily.md
+	LeetCode/234_PalindromeLinkedList.py
+	LeetCode/23_MergeKSortedLists.py
+	"Linked List \351\223\276\350\241\250\344\270\223\351\242\230.md"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 

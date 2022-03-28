@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/remove-linked-list-elements/
+# 2021 12.09
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):

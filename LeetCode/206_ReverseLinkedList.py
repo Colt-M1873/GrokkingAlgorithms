@@ -36,7 +36,6 @@ class Solution:
         # return prev
         
         # v3 recursive
-        
         def recursion(head,lastNode):
             if not head:
                 return lastNode

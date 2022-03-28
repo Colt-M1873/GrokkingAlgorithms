@@ -1,4 +1,6 @@
 # https://leetcode.com/problems/first-bad-version/
+# 2021 11.20
+
 
 # The isBadVersion API is already defined for you.
 # @param version, an integer

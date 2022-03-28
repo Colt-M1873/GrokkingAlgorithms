@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/implement-strstr/
+# 2021 11.26
 
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:

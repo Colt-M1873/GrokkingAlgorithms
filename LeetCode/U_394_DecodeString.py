@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/decode-string/
+# 2021 12.21
+
 class Solution:
     def decodeString(self, s: str) -> str:
         # recursive first get all non-parentesised letters done

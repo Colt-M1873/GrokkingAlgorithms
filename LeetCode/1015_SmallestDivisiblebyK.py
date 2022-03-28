@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/smallest-integer-divisible-by-k/
+# 2021 12.30
 
 class Solution:
     def smallestRepunitDivByK(self, k: int) -> int:

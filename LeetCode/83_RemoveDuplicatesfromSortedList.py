@@ -1,4 +1,6 @@
 # https://leetcode.com/problems/remove-duplicates-from-sorted-list/submissions/
+# 2021 12.03
+
 
 # Definition for singly-linked list.
 class ListNode:

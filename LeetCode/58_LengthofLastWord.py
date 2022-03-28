@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/length-of-last-word/
+# 2021 11.30
 
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:

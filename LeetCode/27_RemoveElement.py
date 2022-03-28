@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/remove-element/submissions/
+# 2021 11.24
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:

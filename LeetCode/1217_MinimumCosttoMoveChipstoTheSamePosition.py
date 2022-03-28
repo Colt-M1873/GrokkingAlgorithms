@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/
+# 2021 12.07
 
 class Solution:
     def minCostToMoveChips(self, position: List[int]) -> int:
