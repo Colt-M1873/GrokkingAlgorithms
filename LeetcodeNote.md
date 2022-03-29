@@ -20,6 +20,21 @@
 [121_BestTimetoBuyandSellStock](./LeetCode/121_BestTimetoBuyandSellStock.py)
 
 
+
+## Multiple methods
+
+[287_FindtheDuplicateNumber](./LeetCode/287_FindtheDuplicateNumber.py)
+1 hashmap 1.1 see array as a hashmap 1.2 set to negative
+2 sort()
+3 set()  4.1 oneliner
+4 [find circle in listnode (same idea as 142)](https://leetcode.com/problems/find-the-duplicate-number/discuss/72846/My-easy-understood-solution-with-O(n)-time-and-O(1)-space-without-modifying-the-array.-With-clear-explanation.)
+5 [modified binary search using pigeonhole principle](https://leetcode.com/problems/find-the-duplicate-number/discuss/72844/Two-Solutions-(with-explanation)%3A-O(nlog(n))-and-O(n)-time-O(1)-space-without-changing-the-input-array)
+6 bit manipulation (the same idea as 1.1 but in a cleaner bitwise format)
+
+
+
+
+
 ## Dynamic Programming
 
 [53_MaximumSubarray](./LeetCode/53_MaximumSubarray.py)
@@ -226,6 +241,8 @@ DFS stack
 KMP  Rabin Karp  String match
 
 
+two-pointer  slow&fast  tortoise&hare(rabbit)
+
 
 # Functions and Features
 
@@ -236,3 +253,15 @@ KMP  Rabin Karp  String match
 `min(a,key=len)`   get min or max with different keys
 
 `collections.deque()` `appendleft()` 
+
+
+
+
+
+# Interesting people while browsing leetcode discuss
+
+a stanford teacher
+https://keithschwarz.com/
+https://keithschwarz.com/interesting/code/?dir=find-duplicate
+
+

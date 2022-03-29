@@ -855,3 +855,37 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 00f2a6c] mostly Leetcode problems solved, commited and pushed by bat
+ 55 files changed, 257 insertions(+), 9 deletions(-)
+ rename CodeTop.md => Daily.md (82%)
+ create mode 100644 LeetCode/234_PalindromeLinkedList.py
+ create mode 100644 LeetCode/23_MergeKSortedLists.py
+ create mode 100644 "Linked List \351\223\276\350\241\250\344\270\223\351\242\230.md"
+git push origin master 
+
+2022.03.29 ÖÜ¶þ 14:34:59.78
+git status 
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Daily.md
+	modified:   LeetCode/142_LinkedListCycleII.cc
+	deleted:    LeetCode/23_MergeKSortedLists.py
+	modified:   LeetcodeNote.md
+	modified:   "Linked List \351\223\276\350\241\250\344\270\223\351\242\230.md"
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/287_FindtheDuplicateNumber.py
+	LeetCode/61_RotateList.py
+	LeetCode/U_23_MergeKSortedLists.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
