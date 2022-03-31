@@ -61,6 +61,11 @@
 
 [69_Sqrtx](./LeetCode/69_Sqrtx.py)
 
+[74_Searcha2DMatrix](./LeetCode/74_Searcha2DMatrix.py)
+
+
+
+
 ## Two Pointer
 
 [283_MoveZeros](./LeetCode/283_MoveZeros.py)
