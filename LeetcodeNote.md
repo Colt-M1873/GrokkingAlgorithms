@@ -19,6 +19,10 @@
 
 [121_BestTimetoBuyandSellStock](./LeetCode/121_BestTimetoBuyandSellStock.py)
 
+[11_ContainerWithMostWater](./LeetCode/11_ContainerWithMostWater.py)
+
+[136_SingleNumber](./LeetCode/136_SingleNumber.py)
+
 
 
 ## Multiple methods
@@ -85,6 +89,12 @@
 
 Backwards two pointer
 [88_MergeSortedArray](./LeetCode/88_MergeSortedArray.py)
+
+
+## Bit Manipulaiton 
+
+[136_SingleNumber](./LeetCode/136_SingleNumber.py)
+
 
 
 ## Listnode
@@ -200,6 +210,11 @@ https://oi-wiki.org/string/kmp/
 
 
 
+## Bash
+
+[193_ValidPhoneNumbers](./LeetCode/193_ValidPhoneNumbers.sh)
+
+
 ## Neat Oneliners
 
 [9_PalindromeNumber](./LeetCode/9_PalindromeNumber.py)
@@ -217,6 +232,10 @@ https://oi-wiki.org/string/kmp/
 [104_MaximumDepthofBinaryTree](./LeetCode/104_MaximumDepthofBinaryTree.py)
 
 [231_PowerofTwo](./LeetCode/231_PowerofTwo.py)
+
+[136_SingleNumber](LeetCode/136_SingleNumber.py)
+
+
 
 ### My oneliners
 

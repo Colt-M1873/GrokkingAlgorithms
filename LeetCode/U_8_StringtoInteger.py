@@ -7,8 +7,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        # print(int("2.1")) #会报错，带小数的字符串不能直接转int，需要先转float再转int
-        # print(int(float("2.1"))) # 正确  
+        # v1 
         if not s: return 0
         ret=[]
         for item in list(s):
