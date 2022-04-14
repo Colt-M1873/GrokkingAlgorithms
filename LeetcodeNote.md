@@ -164,6 +164,12 @@ Backwards two pointer
 
 [94_BinartTreeInorderTraversal](./LeetCode/94_BinartTreeInorderTraversal.py)
 
+[144_BinaryTreePreorderTraversal](./LeetCode/144_BinaryTreePreorderTraversal.py)
+
+[145_BinaryTreePostorderTraversal](./LeetCode/145_BinaryTreePostorderTraversal.py)
+
+[700_SearchinaBinarySearchTree](./LeetCode/700_SearchinaBinarySearchTree.py)
+
 [100_SameTree](./LeetCode/100_SameTree.py)
 
 [101_SymmetricTree](./LeetCode/101_SymmetricTree.py)
@@ -235,6 +241,14 @@ https://oi-wiki.org/string/kmp/
 
 [136_SingleNumber](LeetCode/136_SingleNumber.py)
 
+
+[94_BinartTreeInorderTraversal](./LeetCode/94_BinartTreeInorderTraversal.py)
+
+[144_BinaryTreePreorderTraversal](./LeetCode/144_BinaryTreePreorderTraversal.py)
+
+[145_BinaryTreePostorderTraversal](./LeetCode/145_BinaryTreePostorderTraversal.py)
+
+[700_SearchinaBinarySearchTree](./LeetCode/700_SearchinaBinarySearchTree.py)
 
 
 ### My oneliners

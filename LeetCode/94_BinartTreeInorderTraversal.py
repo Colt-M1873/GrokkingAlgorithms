@@ -19,6 +19,9 @@ class Solution:
         #     ret=ret+self.inorderTraversal(root.right)
         # return ret
 
+        # # v1.1 recursive oneliner
+        # return self.inorderTraversal(root.left)+[root.val]+self.inorderTraversal(root.right) if root else []
+
         # v2 copied iterative, non-recursive using stack
         ret =[]
         stack=[]

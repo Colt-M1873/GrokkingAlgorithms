@@ -146,3 +146,20 @@
 
 347
 
+
+
+**4.14**
+
+700 二叉搜索树，二叉查找树 1用队列进行层序遍历，2递归，3用二叉搜索树的有序特性来比较大小
+
+144 前序遍历 1递归，2用栈循环
+
+145 后序遍历 1递归，2用栈循环反向输出
+
+94 中序遍历 1递归，2循环
+
+
+https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/713539/Python-3-All-Iterative-Traversals-InOrder-PreOrder-PostOrder-Similar-Solutions
+
+↑统一的前中后序遍历
+
