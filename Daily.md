@@ -163,3 +163,19 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/713539/Pytho
 
 ↑统一的前中后序遍历
 
+
+
+
+**4.16**
+
+168 循环，递归
+
+
+**4.17**
+
+169 摩尔投票算法
+
+
+171  10进制变26进制
+
+897 inorder traversal

@@ -250,6 +250,13 @@ https://oi-wiki.org/string/kmp/
 
 [700_SearchinaBinarySearchTree](./LeetCode/700_SearchinaBinarySearchTree.py)
 
+[168_ExcelSheetColumnTitle](./LeetCode/168_ExcelSheetColumnTitle.py)
+
+[171_ExcelSheetColumnNumber](./LeetCode/171_ExcelSheetColumnNumber.py)
+
+
+
+
 
 ### My oneliners
 
@@ -262,6 +269,9 @@ https://oi-wiki.org/string/kmp/
 [67_AddBinary](./LeetCode/67_AddBinary.py)
 
 [88_MergeSortedArray](./LeetCode/88_MergeSortedArray.py)
+
+[171_ExcelSheetColumnNumber](./LeetCode/171_ExcelSheetColumnNumber.py)
+
 
 ### Zeroliner
 

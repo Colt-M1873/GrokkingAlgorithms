@@ -8,7 +8,6 @@ def right(n,m):
     while col<m-2:
         col+=2
         if nums[row][col]=='*':
-
             nums[row][col]='.'
         else:
             break
@@ -55,7 +54,7 @@ def main():
     for i in range(n):
         for j in range(m):
             if nums[i][j]=='*':
-                nums[row][col]='.'
+                nums[row][col]='.' # 新加这一行
                 row=i
                 col=j
                 result+=1
@@ -63,7 +62,7 @@ def main():
                 down(n,m)
                 left(n,m)
                 up(n,m)
-                right(n,m)
+                right(n,m) # 这四行重复一遍
                 down(n,m)
                 left(n,m)
                 up(n,m)
