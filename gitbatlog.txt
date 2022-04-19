@@ -1107,3 +1107,34 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 3732163] mostly Leetcode problems solved, commited and pushed by bat
+ 9 files changed, 227 insertions(+), 3 deletions(-)
+ create mode 100644 LeetCode/168_ExcelSheetColumnTitle.py
+ create mode 100644 LeetCode/169_MajorityElement.py
+ create mode 100644 LeetCode/171_ExcelSheetColumnNumber.py
+ create mode 100644 LeetCode/U_897_IncreasingOrderSearchTree.py
+git push origin master 
+
+2022.04.19 ÖÜ¶þ 14:42:41.30
+git status 
+On branch master
+Your branch is ahead of 'origin/master' by 12 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   AlgorithmScript/Drafts.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	AlgorithmScript/TreeVisualizer.py
+	LeetCode/190_ReverseBits.py
+	LeetCode/191_Numberof1Bits.py
+	LeetCode/U_99_RecoverBinarySearchTree.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
