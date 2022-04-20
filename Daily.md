@@ -168,14 +168,29 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/713539/Pytho
 
 **4.16**
 
-168 循环，递归
+168 excel表列名称 循环，递归
 
 
 **4.17**
 
-169 摩尔投票算法
+169 多数元素 摩尔投票算法
+
+171  Excel表列序号 10进制变26进制
+
+897 递增顺序搜索树 inorder traversal
 
 
-171  10进制变26进制
+**4.19**
 
-897 inorder traversal
+99 恢复二叉搜索树 inorder
+
+191 位1的个数   位操作，lambda，转字符串然后.count 
+
+190 颠倒二进制位  转字符串然后翻转，位操作
+
+
+**4.20**
+
+
+173 二叉搜索树迭代器  拆开的inorder traversal
+
