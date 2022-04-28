@@ -194,3 +194,25 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/713539/Pytho
 
 173 二叉搜索树迭代器  拆开的inorder traversal
 
+
+**4.22**
+
+202 happy number Go数学解法
+
+**4.23**
+
+205 同构字符串 
+
+**4.24**
+
+217 python Go 字典
+
+
+**4.28**
+
+219 
+
+python字典寻址比数组寻址快无数倍
+
+226 py/go
+实现stack数据结构
