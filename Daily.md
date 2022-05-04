@@ -214,5 +214,28 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/713539/Pytho
 
 python字典寻址比数组寻址快无数倍
 
+**4.29**
+
 226 py/go
 实现stack数据结构
+
+**4.30**
+
+228 py/go
+
+
+
+**5.01**
+
+844 比较含退格的字符串 py
+
+**5.02**
+
+844 比较含退格的字符串 go 
+go在函数中定义函数（nested function）要通过将内部函数赋值给从属于外部函数的一个变量来进行
+
+
+905 数组按奇偶性排序 py/go
+双指针
+内置sorted改变key
+位操作x&1和x%2是一样的，都能比较奇偶性，但位操作更快

@@ -87,6 +87,9 @@
 [19_RemoveNthNodeFromEndofList](./LeetCode/19_RemoveNthNodeFromEndofList.cc)
 
 
+[905_SortArrayByParity](LeetCode/905_SortArrayByParity.py)
+
+
 Backwards two pointer
 [88_MergeSortedArray](./LeetCode/88_MergeSortedArray.py)
 
@@ -257,7 +260,6 @@ https://oi-wiki.org/string/kmp/
 
 
 
-
 ### My oneliners
 
 [977_SquaresofaSortedArray](./LeetCode/977_SquaresofaSortedArray.py)
@@ -271,6 +273,8 @@ https://oi-wiki.org/string/kmp/
 [88_MergeSortedArray](./LeetCode/88_MergeSortedArray.py)
 
 [171_ExcelSheetColumnNumber](./LeetCode/171_ExcelSheetColumnNumber.py)
+
+
 
 
 ### Zeroliner

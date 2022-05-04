@@ -1247,3 +1247,45 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 79f627d] mostly Leetcode problems solved, commited and pushed by bat
+ 7 files changed, 206 insertions(+)
+ create mode 100644 LeetCode/U_219_ContainsDuplicate.go
+ create mode 100644 LeetCode/U_219_ContainsDuplicate.py
+ create mode 100644 LeetCode/U_226_ImplementStackUsingQueues.go
+ create mode 100644 LeetCode/U_226_ImplementStackUsingQueues.py
+git push origin master 
+
+2022.05.04 ÖÜÈý 22:09:02.78
+git status 
+On branch master
+Your branch is ahead of 'origin/master' by 17 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Daily.md
+	deleted:    LeetCode/U_226_ImplementStackUsingQueues.go
+	deleted:    LeetCode/U_226_ImplementStackUsingQueues.py
+	modified:   LeetcodeNote.md
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/226_InvertBinaryTree.py
+	LeetCode/228_SummaryRanges.go
+	LeetCode/228_SummaryRanges.py
+	LeetCode/75_SortColors.go
+	LeetCode/75_SortColors.py
+	LeetCode/844_BackspaceStringCompare.go
+	LeetCode/844_BackspaceStringCompare.py
+	LeetCode/905_SortArrayByParity.go
+	LeetCode/905_SortArrayByParity.py
+	LeetCode/U_225_ImplementStackUsingQueues.go
+	LeetCode/U_225_ImplementStackUsingQueues.py
+	LeetCode/U_226_InvertBinaryTree.go
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
