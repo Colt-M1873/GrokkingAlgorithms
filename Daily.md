@@ -239,3 +239,22 @@ go在函数中定义函数（nested function）要通过将内部函数赋值给
 双指针
 内置sorted改变key
 位操作x&1和x%2是一样的，都能比较奇偶性，但位操作更快
+
+
+**5.05**
+
+1679 K和数对的最大数目 哈希表计数
+
+
+Functionality is more important than elegance
+
+
+**5.06**
+
+581 连续的最短无序子数组 最短无序连续子数组
+
+Functionality is more important than elegance
+
+1047 删除字符串中所有相邻重复项
+
+1209 删除字符串中所有相邻重复项
