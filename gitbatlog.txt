@@ -1361,3 +1361,24 @@ git commit -m 'mostly Leetcode problems solved, commited and pushed by bat'
  create mode 100644 LeetCode/U_215_KthLargestElementinanArray.py
 git push origin master 
 
+2022.05.19 ÷‹Àƒ 20:27:31.72
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Daily.md
+	deleted:    LeetCode/118 _PascalsTriangle.py
+	modified:   LeetCode/U_3_LongestSubstringWithoutRepeatingCharacters.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/118_PascalsTriangle.py
+	LeetCode/235_LowestCommonAncestorofaBinarySearchTree.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
