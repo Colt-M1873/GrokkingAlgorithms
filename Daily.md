@@ -262,3 +262,20 @@ Functionality is more important than elegance
 **5.19**
 
 235 最小公共祖先
+
+**5.20**
+
+12 interger to roman
+
+1 two sum  hash table
+
+2 add two numbers
+
+
+
+5 最长回文子串
+https://leetcode.com/problems/longest-palindromic-substring/
+647 所有回文子串
+https://leetcode.com/problems/palindromic-substrings/
+516. Longest Palindromic Subsequence
+https://leetcode.com/problems/longest-palindromic-subsequence/

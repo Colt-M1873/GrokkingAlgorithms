@@ -1382,3 +1382,33 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master ca8377d] mostly Leetcode problems solved, commited and pushed by bat
+ 6 files changed, 183 insertions(+), 26 deletions(-)
+ rename LeetCode/{118 _PascalsTriangle.py => 118_PascalsTriangle.py} (100%)
+ create mode 100644 LeetCode/235_LowestCommonAncestorofaBinarySearchTree.py
+ rewrite LeetCode/U_3_LongestSubstringWithoutRepeatingCharacters.py (61%)
+git push origin master 
+
+2022.05.22 ÷‹»’ 13:27:29.97
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Daily.md
+	modified:   LeetCode/1_TwoSum.py
+	modified:   LeetCode/2_AddTwoNumbers.py
+	deleted:    LeetCode/U_3_LongestSubstringWithoutRepeatingCharacters.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/12_IntegertoRoman.py
+	LeetCode/3_LongestSubstringWithoutRepeatingCharacters.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
