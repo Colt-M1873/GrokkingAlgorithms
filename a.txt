@@ -36,3 +36,5 @@ ping baidu.com
 ping baidu.com 
 2022.05.22 周日 13:27:29.95
 ping baidu.com 
+2022.05.26 周四 21:03:53.29
+ping baidu.com 

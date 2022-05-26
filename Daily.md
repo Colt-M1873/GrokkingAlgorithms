@@ -279,3 +279,12 @@ https://leetcode.com/problems/longest-palindromic-substring/
 https://leetcode.com/problems/palindromic-substrings/
 516. Longest Palindromic Subsequence
 https://leetcode.com/problems/longest-palindromic-subsequence/
+
+
+**5.23**
+
+146 LRU  =  hashmap + double linked list
+
+**5.26**
+
+496 Monotonic stack
