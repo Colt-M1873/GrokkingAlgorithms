@@ -1470,3 +1470,26 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 5879a1a] mostly Leetcode problems solved, commited and pushed by bat
+ 2 files changed, 30 insertions(+)
+git push origin master 
+
+2022.05.28 ÷‹¡˘ 13:07:12.97
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   LeetCode/74_Searcha2DMatrix.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/240_SearchA2DMatrixII.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 

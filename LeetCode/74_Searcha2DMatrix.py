@@ -3,7 +3,7 @@
 
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        # # v1 traverse search, slow
+        # # v1 traverse search
         # for item in matrix:
         #     if target>=item[0] and target<=item[-1]:
         #         for subitem in item:
@@ -51,3 +51,29 @@ class Solution:
             else:
                 end = mid
         return matrix[beg//m][beg%m] == target
+
+
+        # 2022年05月28日 12:43:17
+        for item in matrix:
+            if item[-1]>=target:
+                for subitem in item:
+                    if subitem==target:
+                        return True
+                    elif subitem>target:
+                        return False
+        
+        
+        # 2022年05月28日 12:43:49
+        # binary search using bisect
+        vlist=list(map(lambda x:x[-1], matrix))
+        v=min(bisect.bisect(vlist,target),len(matrix)-1)
+        if matrix[v-1][-1]==target:
+            return True
+        h=bisect.bisect(matrix[v],target)
+        if matrix[v][h-1]==target:
+            return True
+        return False
+        
+        # copied, one-liner but slow 
+        # https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66168/4-lines-C-6-lines-Ruby-7-lines-Python-1-liners
+        return any(target in row for row in matrix)
