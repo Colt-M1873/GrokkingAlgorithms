@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/climbing-stairs/
 # 2021 12.02
-
+# 2022年06月07日 
 
 class Solution:
     def climbStairs(self, n: int) -> int:
@@ -36,6 +36,34 @@ class Solution:
         else:
             return self.climbStairs(n-1)+self.climbStairs(n-2)
 
-# s=Solution()
-# print(s.climbStairs(9))
 
+        # 2022年06月07日 11:07:58
+        # dp
+        # 找递推公式，因为每次只能走一格或者两格，所以第i级只能通过第i-1级走1格和第i-2级走2格达成，
+        # 因此第i级的走法就是第i-1和i-2级走法的和
+        # dp=[0]*(n+1)
+        # dp[1]=1
+        # if n>1:
+        #     dp[2]=2
+        # for i in range(3,n+1):
+        #     dp[i]=dp[i-1]+dp[i-2]
+        # return dp[n]
+        
+        # v2 
+        # 上一版本的dp数组里只有最后两项有用，因此可以用两个变量而非一整个数组来存储
+        # 节省了一丢丢数组的空间，空间复杂度从O(n)变成了O(1) ?应该是吧
+        if n<3: return n
+        dpi_1=2
+        dpi_2=1
+        for _ in range(2,n):
+            dpi=dpi_1+dpi_2
+            dpi_2=dpi_1
+            dpi_1=dpi
+        return dpi        
+
+        # 再简化
+        # v3 copied https://leetcode.com/problems/climbing-stairs/discuss/25296/3-4-short-lines-in-every-language
+        a = b = 1
+        for _ in range(n):
+            a, b = b, a + b
+        return a

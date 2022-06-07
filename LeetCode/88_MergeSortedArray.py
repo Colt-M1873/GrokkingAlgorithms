@@ -6,7 +6,7 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
-        # # v1 oneliner builtin modules used
+        # # v1 oneliner using builtin sort and slice assignment
         # nums1[:]=sorted(nums1[:m]+nums2[:n])
         
         # # v2  cheating, not in-place but passed
@@ -47,5 +47,25 @@ class Solution:
         if n>0:
             nums1[:n]=nums2[:n]
         
-        
+        # 2022年06月07日 10:21:53  
+        # 31min 
+        # ugly version of v4
+        # backward, from big to small, swap and fill the empty zerr
+        # m and n as pointer
+        m-=1
+        n-=1
+        for i in range(len(nums1)-1,-1,-1):
+            if m>=0 and n>=0:
+                if nums1[m]>=nums2[n]:
+                    nums1[i],nums1[m] = nums1[m],nums1[i]
+                    m-=1
+                elif nums1[m]<nums2[n]:
+                    nums1[i]=nums2[n]
+                    n-=1
+            elif m>=0 and n<0:
+                nums1[i],nums1[m] = nums1[m],nums1[i]
+                m-=1
+            elif m<0 and n>=0:
+                nums1[i]=nums2[n]
+                n-=1
      

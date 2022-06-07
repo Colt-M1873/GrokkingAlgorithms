@@ -42,3 +42,5 @@ ping baidu.com
 ping baidu.com 
 2022.05.28 ÖÜÁù 13:07:12.96
 ping baidu.com 
+2022.06.07 ÖÜ¶ş 13:06:40.15
+ping baidu.com 
