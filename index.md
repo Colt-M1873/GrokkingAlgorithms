@@ -45,6 +45,10 @@
 
 [300_LongestIncreasingSubsequence](./LeetCode/300_LongestIncreasingSubsequence.py)
 
+[70_ClimbingStars](./LeetCode/70_ClimbingStars.py)
+
+[746_MinCostClimbingStairs](./LeetCode/746_MinCostClimbingStairs.py)
+
 42[]
 
 ## Hashmap

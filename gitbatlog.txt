@@ -1518,3 +1518,36 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 472dcf2] mostly Leetcode problems solved, commited and pushed by bat
+ 5 files changed, 99 insertions(+), 5 deletions(-)
+ create mode 100644 LeetCode/746_MinCostClimbingStairs.py
+git push origin master 
+
+2022.06.09 ÷‹Àƒ 21:21:17.92
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Daily.md
+	modified:   LeetCode/167_TwoSumII_InputArrayisSorted.py
+	deleted:    "LeetCode/\346\272\220.cpp"
+	modified:   a.txt
+	modified:   gitbatlog.txt
+	modified:   index.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	"1037.\346\234\211\346\225\210\347\232\204\345\233\236\346\227\213\351\225\226/"
+	Chronicle.md
+	LeetCode/653_TwoSumIVInputisaBST.py
+	LeetCode_rename/
+	batchRename.py
+	crawler.py
+	log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
