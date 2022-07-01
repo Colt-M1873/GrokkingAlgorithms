@@ -290,6 +290,9 @@ https://leetcode.com/problems/longest-palindromic-subsequence/
 496 Monotonic stack
 
 
+**7.01**
+206 reverse linked list
+
 
 
 
