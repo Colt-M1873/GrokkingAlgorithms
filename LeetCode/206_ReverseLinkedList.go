@@ -11,10 +11,8 @@
  import "fmt"
  func reverseList(head *ListNode) *ListNode {
      // fmt.Println(head.Val)
-     var prev *ListNode
-     var next *ListNode
+     var prev,next *ListNode
      for head!=nil {
-         fmt.Println(head.Val)
          next=head.Next
          head.Next=prev
          prev=head

@@ -293,7 +293,10 @@ https://leetcode.com/problems/longest-palindromic-subsequence/
 **7.01**
 206 reverse linked list
 
+**7.02**
 
+
+704 278 35 binary search
 
 
 ```python
