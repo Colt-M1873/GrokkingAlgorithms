@@ -48,3 +48,13 @@ class Solution:
         #         answer.append(right * right)
         #         r -= 1
         # return (answer[::-1]) # reverse list using step of -1 [::-1]
+
+
+        # # 2022年07月03日 16:33:52
+        # # oneliner
+        # # v a1
+        # return sorted(list(map(lambda x:x**2,nums)))
+        # # v a2
+        # return sorted(map(lambda x:x**2,nums))
+        # # v a3
+        # return sorted(x**2 for x in nums)
