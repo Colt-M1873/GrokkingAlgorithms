@@ -15,30 +15,28 @@ class Solution:
         # for item in nums1:
         #     ret.append(d[item])
         # return ret
-    
+
         # v2 copied, monotonic stack + hashtable O(n)
-        # https://leetcode.com/problems/next-greater-element-i/discuss/97604/Python-Solution-with-O(n) 
+        # https://leetcode.com/problems/next-greater-element-i/discuss/97604/Python-Solution-with-O(n)
         # 这是一个单调递减栈，如果碰到了比栈顶还大的数就不断出栈
         # 很费脑子，这里的大致意思是：
         # 循环获取nums2里的数，每个数都进一遍栈，并且维持栈里从大到小的顺序，
         # 如果当前的数比栈顶大，就pop出栈直到栈空或者直到栈顶比当前数更大
         # pop出的这部份数的next greater element是当前数
-        d={}
-        ret=[]
-        mstack=[]
+        d = {}
+        ret = []
+        mstack = []
         for item in nums2:
-            while mstack and mstack[-1]<item:
-                prev_num=mstack.pop()
-                d[prev_num]=item
+            while mstack and mstack[-1] < item:
+                prev_num = mstack.pop()
+                d[prev_num] = item
             mstack.append(item)
         for item in nums1:
-            ret.append(d.get(item,-1))
+            ret.append(d.get(item, -1))
         return ret
-    
+
         # labuladong书里的方法是从后向前取数，可以重写一下
-        
-         
+
         # # v3 oneliner but O(m*n) StefanPochmann
         # # https://leetcode.com/problems/next-greater-element-i/discuss/97616/Meh-1000-is-small
         #  return [next((y for y in nums2[nums2.index(x):] if y > x), -1) for x in nums1]
-    

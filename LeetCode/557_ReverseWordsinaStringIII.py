@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/reverse-words-in-a-string-iii/submissions/
 # 2021 11.25
+# 2022年07月05日 12:37:45
 
 class Solution:
     def reverseWords(self, s: str) -> str:
@@ -8,9 +9,12 @@ class Solution:
         # for i in range(len(list1)):
         #     list1[i]=list1[i][::-1]
         # return ' '.join(list1)
-        
+
         # v1.1 copied oneliner split and join
         return ' '.join(x[::-1] for x in s.split())
-        
+
         # # v1.2 copied oneliner using lambda
         # return " ".join(map(lambda x: x[::-1], s.split()))
+
+        # 2022年07月05日 12:37:40
+        return ' '.join(x[::-1] for x in s.split())
