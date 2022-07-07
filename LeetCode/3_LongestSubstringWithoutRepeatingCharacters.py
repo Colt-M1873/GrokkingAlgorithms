@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/longest-substring-without-repeating-characters/
 # 2022年04月02日 13:15:43
+# 2022年07月07日 11:57:20
 
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
@@ -92,4 +93,42 @@ class Solution(object):
         # # answer is either in the begining/middle OR some mid to the end of string
         # return max(res, len(s)-start)
 
+
+        # 2022年07月07日 11:57:15
+        # # va1 sliding window using list
+        # l,r=0,0
+        # d=[]
+        # maxlen=0
+        # # d.pop(3)# must pop or delete a valid key or will trhow error
+        # while r<len(s):
+        #     if s[r] not in d:
+        #         d.append(s[r])
+        #         r+=1
+        #     else:
+        #         # maxlen=max(maxlen,r-l-1)
+        #         maxlen=max(maxlen,len(d))
+        #         ind=d.index(s[r])
+        #         # print(d,ind,s[r])
+        #         l+=ind+1
+        #         d=d[ind+1:]
+        #         d.append(s[r])
+        #         r+=1
+        #         # print(d)
+        # maxlen=max(maxlen,len(d))
+        # return maxlen
+        
+        # va1.1 sliding window using list, simplified
+        r=0
+        d=[]
+        maxlen=0
+        while r<len(s):
+            if s[r] in d:
+                maxlen=max(maxlen,len(d))
+                ind=d.index(s[r])
+                d=d[ind+1:]
+            d.append(s[r])
+            r+=1
+        maxlen=max(maxlen,len(d))
+        return maxlen
+        
         

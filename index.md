@@ -302,6 +302,15 @@ KMP  Rabin Karp  String match
 two-pointer  slow&fast  tortoise&hare(rabbit)
 
 
+
+permutation == anagram == same letter frequqncy
+
+monotonic queue/stack
+
+alphabet dictionary are super useful
+
+
+
 # Functions and Features
 
 ## builtin mudules
@@ -321,5 +330,7 @@ two-pointer  slow&fast  tortoise&hare(rabbit)
 a stanford teacher
 https://keithschwarz.com/
 https://keithschwarz.com/interesting/code/?dir=find-duplicate
+
+
 
 
