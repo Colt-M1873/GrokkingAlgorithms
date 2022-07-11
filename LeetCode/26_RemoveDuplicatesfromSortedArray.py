@@ -1,10 +1,7 @@
 # https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-<<<<<<< HEAD
 # 2021 11.24
-=======
 # 2021 12.06 2022 3.15
 
->>>>>>> b8d85f1c60349f488804ed5b9f1ae9141406fa10
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
