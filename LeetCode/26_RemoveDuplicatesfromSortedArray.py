@@ -13,7 +13,6 @@ class Solution:
         #     else:
         #         i+=1
         
-<<<<<<< HEAD:26_RemoveDuplicatesfromSortedArray.py
         # # v2 two pointers 2022 3.15
         # while b<len(nums):
         #     if nums[b]==nums[a]:
@@ -24,7 +23,6 @@ class Solution:
         #         b+=1
         # a+=1
         # return a
-=======
         # v2 two pointers
         a,b=0,0
         while b<len(nums):
@@ -37,7 +35,6 @@ class Solution:
         a+=1
         return a
 
->>>>>>> 9ad0438a3efe2444c740cdab89d8ac48145c6cb4:LeetCode/26_RemoveDuplicatesfromSortedArray.py
 
         # v3 copied  using slice assignment '[:]' elegant in-place operation
         nums[:] = sorted(set(nums))
