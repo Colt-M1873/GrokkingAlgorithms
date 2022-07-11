@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/merge-two-sorted-lists/
-# 2021 11.23 2022 3.10
+# 2021 11.23 2022 3.10 7.11
 
 
 # Definition for singly-linked list.
@@ -103,3 +103,17 @@ class Solution:
             a,b=l2,l1
         a.next=self.mergeTwoLists(a.next,b)
         return a
+
+
+        # 2022年07月11日 11:14:21
+        # v1 recursive
+        if not list1 and not list2:
+            return None
+        if not list1 or not list2:
+            return list1 or list2
+        if list1.val<list2.val:
+            list1.next=self.mergeTwoLists(list1.next,list2)
+            return list1
+        else:
+            list2.next=self.mergeTwoLists(list1,list2.next)
+            return list2

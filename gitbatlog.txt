@@ -2102,3 +2102,13 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master f423c16] mostly Leetcode problems solved, commited and pushed by bat
+ 11 files changed, 367 insertions(+), 16 deletions(-)
+ create mode 100644 LeetCode/19_RemoveNthNodeFromEndofList.go
+ create mode 100644 LeetCode/695_MaxAreaof Island.py
+ create mode 100644 LeetCode/6_ZigzagConversion.py
+ create mode 100644 LeetCode/876_MiddleoftheLinkedList.go
+ create mode 100644 LeetCode/U_239_SlidingWindowMaximum.py
+git push origin master 
+

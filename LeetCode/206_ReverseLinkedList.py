@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/reverse-linked-list/
-# 2022 3.05 3.09
+# 2022 3.05 3.09 7.11
 
 # Definition for singly-linked list.
 
@@ -44,3 +44,12 @@ class Solution:
             return recursion(tmpNext,head)
         
         return recursion(head,None)
+
+        # 2022年07月11日 11:18:37
+        prev=None
+        while head:
+            nxt=head.next
+            head.next=prev
+            prev=head
+            head=nxt
+        return prev
