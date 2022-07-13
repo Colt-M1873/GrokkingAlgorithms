@@ -28,9 +28,37 @@ class Solution(object):
             bitmask^=item # xor 
         return bitmask
 
+        
         # v3 copied oneliner, bit manipulation using reduce() and lambda
         return reduce(lambda bitmask,item: bitmask^item, nums)
     
         # v3.1 oneliner super clean, bitmask using reduce() and builtin xor
         return reduce(xor,nums)
         
+        # 2022年07月13日 13:15:26
+        # xor bit manipulation
+        a=0
+        for item in nums:
+            a^=item
+        return a
+
+
+        # # 2022年07月13日 13:21:54    
+        # # v2 dict ,not linear time and not constant space
+        # d={}
+        # for val in nums:
+        #     if val not in d:
+        #         d[val]=0
+        #     else:
+        #         del d[val]
+        # return list(d)[0]
+    
+        # v2.1 set
+        s=set()
+        for val in nums:
+            if val not in s:
+                s.add(val)
+            else:
+                s.remove(val)
+        return list(s)[0]
+    

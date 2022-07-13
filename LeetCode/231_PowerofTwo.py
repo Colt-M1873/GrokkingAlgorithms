@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/power-of-two/submissions/
 # 2021 12.21
+# 2022年07月13日 12:24:41
 
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
@@ -19,3 +20,23 @@ class Solution:
 
         # # v3 copied like v2 bitwise oneliner 24ms
         # return n > 0 and bin(n).count('1') == 1
+
+
+
+        # 2022年07月13日 12:13:21
+        # v1
+        # return n>=0 and str(bin(n)).count('1')==1
+        
+        # 2022年07月13日 12:14:41
+        # v2
+        if n<=0: return False
+        while n & 1 ==0 :
+            n=n>>1
+        return n==1
+    
+        # # 2022年07月13日 12:19:38
+        # # v3
+        # i=1
+        # while i<n:
+        #     i=i<<1
+        # return i==n

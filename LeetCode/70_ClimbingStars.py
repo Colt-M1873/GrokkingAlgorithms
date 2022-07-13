@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/climbing-stairs/
 # 2021 12.02
 # 2022年06月07日 
+# 2022年07月12日 13:57:07
 
 class Solution:
     def climbStairs(self, n: int) -> int:
@@ -28,13 +29,13 @@ class Solution:
         #     out+=combine
         # return out
 
-        # v2 copied  Recursion  clean and brilliant
-        if n==2:
-            return 2
-        elif n==1:
-            return 1
-        else:
-            return self.climbStairs(n-1)+self.climbStairs(n-2)
+        # # v2 copied  Recursion, TLE  clean and brilliant， but TLE
+        # if n==2:
+        #     return 2
+        # elif n==1:
+        #     return 1
+        # else:
+        #     return self.climbStairs(n-1)+self.climbStairs(n-2)
 
 
         # 2022年06月07日 11:07:58
@@ -49,21 +50,40 @@ class Solution:
         #     dp[i]=dp[i-1]+dp[i-2]
         # return dp[n]
         
-        # v2 
-        # 上一版本的dp数组里只有最后两项有用，因此可以用两个变量而非一整个数组来存储
-        # 节省了一丢丢数组的空间，空间复杂度从O(n)变成了O(1) ?应该是吧
-        if n<3: return n
-        dpi_1=2
-        dpi_2=1
-        for _ in range(2,n):
-            dpi=dpi_1+dpi_2
-            dpi_2=dpi_1
-            dpi_1=dpi
-        return dpi        
+        # # v2 
+        # # 上一版本的dp数组里只有最后两项有用，因此可以用两个变量而非一整个数组来存储
+        # # 节省了一丢丢数组的空间，空间复杂度从O(n)变成了O(1) ?应该是吧
+        # if n<3: return n
+        # dpi_1=2
+        # dpi_2=1
+        # for _ in range(2,n):
+        #     dpi=dpi_1+dpi_2
+        #     dpi_2=dpi_1
+        #     dpi_1=dpi
+        # return dpi        
 
-        # 再简化
-        # v3 copied https://leetcode.com/problems/climbing-stairs/discuss/25296/3-4-short-lines-in-every-language
-        a = b = 1
-        for _ in range(n):
-            a, b = b, a + b
-        return a
+        # # 再简化
+        # # v3 copied https://leetcode.com/problems/climbing-stairs/discuss/25296/3-4-short-lines-in-every-language
+        # a = b = 1
+        # for _ in range(n):
+        #     a, b = b, a + b
+        # return a
+
+
+        # ultimate, 2022年07月12日 13:56:12
+        # DP list, like recursive but superfast
+        dp=[0,1,2] # dp[1]=1, dp[2]=2
+        if n<=2: return dp[n]
+        while n>2:
+            dp.append(dp[-1]+dp[-2])
+            n-=1
+        return dp[-1]
+        
+
+
+        # 2022年07月13日 11:57:17
+        # ultimate+
+        dp=[0,1,2] # dp[1]=1 dp[2]=2
+        for _ in range(2,n):
+            dp.append(dp[-1]+dp[-2])
+        return dp[n]

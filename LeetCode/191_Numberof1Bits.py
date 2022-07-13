@@ -28,3 +28,15 @@ class Solution(object):
             n &= (n-1)
             ans += 1
         return ans
+
+        # 2022年07月13日 12:25:42
+        # v1
+        return bin(n).count('1')
+        
+        # 2022年07月13日 12:26:49
+        # v2
+        count=0
+        while n>0:
+            count+=n&1
+            n=n>>1
+        return count

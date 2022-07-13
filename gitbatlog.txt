@@ -2112,3 +2112,29 @@ git commit -m 'mostly Leetcode problems solved, commited and pushed by bat'
  create mode 100644 LeetCode/U_239_SlidingWindowMaximum.py
 git push origin master 
 
+2022.07.13 ÖÜÈý 13:31:56.17
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   LeetCode/136_SingleNumber.py
+	modified:   LeetCode/190_ReverseBits.py
+	modified:   LeetCode/191_Numberof1Bits.py
+	modified:   LeetCode/231_PowerofTwo.py
+	modified:   LeetCode/70_ClimbingStars.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/120_Triangle.py
+	LeetCode/198_HouseRobber.py
+	LeetCode/46_Permutations.py
+	LeetCode/77_Combinations.py
+	LeetCode/784_LetterCasePermutation.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
