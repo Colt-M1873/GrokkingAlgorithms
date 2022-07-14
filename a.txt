@@ -60,3 +60,5 @@ ping baidu.com
 ping baidu.com 
 2022.07.14 周四 10:47:57.13
 ping baidu.com 
+2022.07.14 周四 22:03:38.84
+ping baidu.com 
