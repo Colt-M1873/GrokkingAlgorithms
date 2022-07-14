@@ -23,15 +23,20 @@ class Solution:
 
 
 
-        # 2022年07月13日 12:13:21
-        # v1
+        # # 2022年07月13日 12:13:21
+        # # v1
         # return n>=0 and str(bin(n)).count('1')==1
         
-        # 2022年07月13日 12:14:41
-        # v2
-        if n<=0: return False
-        while n & 1 ==0 :
-            n=n>>1
+        # # 2022年07月13日 12:14:41
+        # # v2
+        # if n<=0: return False
+        # while n & 1 ==0 :
+        #     n=n>>1
+        # return n==1
+
+        # v2.1 2022年07月14日 09:39:53
+        while n>0 and n&1==0:
+            n>>=1
         return n==1
     
         # # 2022年07月13日 12:19:38

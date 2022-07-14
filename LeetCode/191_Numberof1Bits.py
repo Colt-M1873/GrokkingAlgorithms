@@ -35,8 +35,8 @@ class Solution(object):
         
         # 2022年07月13日 12:26:49
         # v2
-        count=0
-        while n>0:
-            count+=n&1
-            n=n>>1
-        return count
+        c=0 # count
+        while n:
+            c+=n&1
+            n>>=1
+        return c
