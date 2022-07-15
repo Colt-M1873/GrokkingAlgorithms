@@ -7,7 +7,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        
+        # ^ denotes xor, A^B^B=A  0^A=A
         # # v1 too slow 9800ms    
         # s1=[]
         # for i in range(len(nums)):
