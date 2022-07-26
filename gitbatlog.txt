@@ -2338,3 +2338,32 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 95afe82] mostly Leetcode problems solved, commited and pushed by bat
+ 5 files changed, 137 insertions(+)
+ create mode 100644 LeetCode/141_LinkedListCycle.go
+ create mode 100644 LeetCode/203_RemoveLinkedListElement.go
+ create mode 100644 LeetCode/21_MergeTwoSortedLists.go
+git push origin master 
+
+2022.07.26 ÖÜ¶þ 19:33:40.58
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/206_ReverseLinkedList.java
+	LeetCode/2351_FirstLettertoAppearTwice.py
+	LeetCode/2352_EqualRowandColumnPairs.py
+	LeetCode/34_FindFirstandLastPositionofElementinSortedArray.go
+	LeetCode/83_RemoveDuplicatesfromSortedList.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
