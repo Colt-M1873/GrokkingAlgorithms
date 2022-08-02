@@ -2367,3 +2367,13 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master e5be86c] mostly Leetcode problems solved, commited and pushed by bat
+ 7 files changed, 170 insertions(+)
+ create mode 100644 LeetCode/206_ReverseLinkedList.java
+ create mode 100644 LeetCode/2351_FirstLettertoAppearTwice.py
+ create mode 100644 LeetCode/2352_EqualRowandColumnPairs.py
+ create mode 100644 LeetCode/34_FindFirstandLastPositionofElementinSortedArray.go
+ create mode 100644 LeetCode/83_RemoveDuplicatesfromSortedList.java
+git push origin master 
+
