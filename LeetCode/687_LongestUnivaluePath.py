@@ -24,36 +24,37 @@ class Solution:
         return currMax
 
 # v1.1 recursive without local variable
-    def longestUnivaluePath(self, root):
-        def recDFS2(root):
-            if not root: return 0, 0
-            maxL, pathL  = recDFS2(root.left)
-            maxR, pathR = recDFS2(root.right)        
-            pathL = pathL + 1 if root.left and root.left.val == root.val else 0
-            pathR = pathR+ 1 if root.right and root.right.val == root.val else 0
-            return max(maxL, maxR, pathL + pathR), max(pathL, pathR)
-        return recDFS2(root)[0]
+def longestUnivaluePath(self, root):
+    def recDFS2(root):
+        if not root: return 0, 0
+        maxL, pathL  = recDFS2(root.left)
+        maxR, pathR = recDFS2(root.right)        
+        pathL = pathL + 1 if root.left and root.left.val == root.val else 0
+        pathR = pathR+ 1 if root.right and root.right.val == root.val else 0
+        return max(maxL, maxR, pathL + pathR), max(pathL, pathR)
+    return recDFS2(root)[0]
 
 
 
 # v2 iterative post-order DFS
-class Solution:
-    def longestUnivaluePath(self, root: Optional[TreeNode]) -> int:
-        currMax = 0
-        postorder = [(0, root, None)]
-        d = {None: 0}
-        while postorder:
-            seen, node, parent = postorder.pop()
-            if not node: continue
-            if not seen:
-                postorder.append((1, node, parent))
-                postorder.append((0, node.right, node.val))
-                postorder.append((0, node.left, node.val))
+
+def longestUnivaluePath(self, root: Optional[TreeNode]) -> int:
+    currMax = 0
+    postorder = [(0, root, None)] # 是否见过，当前节点，父节点
+    d = {None: 0} # 用于存储节点对应的最长路径
+    while postorder:
+        seen, node, parent = postorder.pop()
+        if not node: continue
+        if not seen:
+            postorder.append((1, node, parent))
+            postorder.append((0, node.right, node.val))
+            postorder.append((0, node.left, node.val))
+        else:
+            if node.val == parent:
+                d[node] = max(d[node.left], d[node.right]) + 1
             else:
-                if node.val == parent:
-                    d[node] = max(d[node.left], d[node.right]) + 1
-                else:
-                    d[node] = 0
-                currMax = max(currMax, d[node.left] + d[node.right])
-        return currMax
-     
+                d[node] = 0
+            currMax = max(currMax, d[node.left] + d[node.right])
+    return currMax
+    
+

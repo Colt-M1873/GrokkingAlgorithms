@@ -2479,3 +2479,35 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 4568ecb] mostly Leetcode problems solved, commited and pushed by bat
+ 5 files changed, 292 insertions(+)
+ create mode 100644 LeetCode/687_LongestUnivaluePath.go
+ create mode 100644 LeetCode/687_LongestUnivaluePath.py
+ create mode 100644 Solutions/687.md
+git push origin master 
+
+2022.09.04 ÷‹»’ 20:12:52.52
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   LeetCode/687_LongestUnivaluePath.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/1582_SpecialPositionsinaBinaryMatrix.py
+	LeetCode/637_AverageofLevelsinBinaryTree.py
+	LeetCode/646_MaximumLengthofPairChain.go
+	LeetCode/646_MaximumLengthofPairChain.py
+	LeetCode/967_NumbersWithSameConsecutiveDifferences.py
+	LeetCode/987_VerticalOrderTraversalofaBinaryTree.py
+	Solutions/646.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
