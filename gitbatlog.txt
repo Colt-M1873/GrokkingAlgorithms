@@ -2511,3 +2511,15 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master e33997a] mostly Leetcode problems solved, commited and pushed by bat
+ 10 files changed, 269 insertions(+), 28 deletions(-)
+ create mode 100644 LeetCode/1582_SpecialPositionsinaBinaryMatrix.py
+ create mode 100644 LeetCode/637_AverageofLevelsinBinaryTree.py
+ create mode 100644 LeetCode/646_MaximumLengthofPairChain.go
+ create mode 100644 LeetCode/646_MaximumLengthofPairChain.py
+ create mode 100644 LeetCode/967_NumbersWithSameConsecutiveDifferences.py
+ create mode 100644 LeetCode/987_VerticalOrderTraversalofaBinaryTree.py
+ create mode 100644 Solutions/646.md
+git push origin master 
+
