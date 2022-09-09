@@ -33,3 +33,8 @@ class Solution:
             ret.append(root.val)
             root=root.right
         return ret
+
+
+        # 2022年09月08日 10:47:33
+        # recursive onelienr
+        return self.inorderTraversal(root.left)+[root.val]+self.inorderTraversal(root.right) if root else []

@@ -2523,3 +2523,28 @@ git commit -m 'mostly Leetcode problems solved, commited and pushed by bat'
  create mode 100644 Solutions/646.md
 git push origin master 
 
+2022.09.09 ÷‹ŒÂ 21:45:26.61
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   LeetCode/606_ConstructStringFromBinaryTree.py
+	modified:   LeetCode/94_BinartTreeInorderTraversal.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/1159_CrawlerLogFolder.py
+	LeetCode/1592_RearrangeSpacesBetweenWords.py
+	LeetCode/1996_TheNumberofWeakCharactersInTheGame.py
+	LeetCode/526_BeautifulArrangement.py
+	LeetCode/667_BeautifulArrangementII.py
+	LeetCode/674_LongestContinuousIncreasingSubsequence.py
+	LeetCode/94_BinartTreeInorderTraversal copy.go
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
