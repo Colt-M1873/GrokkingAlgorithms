@@ -92,4 +92,29 @@ class Solution:
         for i in range(1, len(prices)):
             currmin[i]=min(currmin[i],currmin[i-1])
             dp[i]=max(dp[i-1],prices[i]-currmin[i])
+        return max(dp) 
+        # 2022年09月10日 19:32:51： should be dp[-1]
+        return dp[-1] 
+        
+
+        # 2022年09月10日 19:31:28
+        dp=[0]*len(prices)
+        currmin=prices[0]
+        for idx,p in enumerate(prices):
+            if p<currmin:
+                currmin=p
+            else:
+                dp[idx]=p-currmin
         return max(dp)
+
+
+        # 2022年09月10日 19:34:47
+        currmax=0
+        currmin=prices[0]
+        for idx,p in enumerate(prices):
+            if p<currmin:
+                currmin=p
+            else:
+                currmax=max(currmax,p-currmin)
+        return currmax
+        
