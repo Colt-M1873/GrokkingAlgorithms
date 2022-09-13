@@ -54,3 +54,29 @@ class Solution:
                     l[i],l[j]=l[j],l[i]
             i+=1
         return currmax
+
+
+        # 2022年09月13日 22:21:19
+        # v2 greedy
+        orignum=num
+        n=[]
+        while num>0:
+            n.insert(0,num%10)
+            num//=10
+        sn=sorted(n,reverse=True)
+        left,right=-1,-1
+        for i in range(len(n)):
+            if n[i]!=sn[i]:
+                left=i
+                break
+        if left==-1:
+            return orignum
+        for j in range(len(n)-1,-1,-1):
+            if n[j]==sn[left]:
+                right=j
+                break
+        n[left],n[right]=n[right],n[left]
+        ret=0
+        for item in n:
+            ret=10*ret+item
+        return ret
