@@ -63,6 +63,35 @@ func max(a,b int) int{
 
 
 // v2 iterative post-order DFS
-// no idea
+// no idea, copied
 
-
+func longestUnivaluePath(root *TreeNode) int {
+    currMax:=0
+    mixedType:=[]interface{} {0,root,nil}
+    postorder := []interface{}
+    d := make(map[*TreeNode]int)
+    for len(postorder)>0{
+        seen,node,parent := postorder[len(postorder)-1]
+        postorder=postorder[:len(postorder)-1]
+        if node==nil{
+            continue
+        }
+        if seen==0{
+            postorder=append(postorder,[]int{1,node,parent})
+            postorder=append(postorder,[]int{0,node.Left,node.Val})
+            postorder=append(postorder,[]int{0,node.Right,node.Val})
+        }else{
+            if node.Val==parent{
+                d[node]:=max(d[node.Left],d[node.Right])+1
+            }else{
+                d[node]:=0
+            }
+            currMax=max(currMax,d[node.Left]+d[node.Right])
+        }
+    }
+    return currMax
+}
+func max(a,b int)int{
+    if a>b {return a}
+    return b
+}
