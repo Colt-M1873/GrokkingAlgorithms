@@ -6,7 +6,7 @@ https://xie.infoq.cn/article/996cf8899930ae467cc790035
 
 Leetcode 240
 
-
+https://www.cnblogs.com/maybe2030/p/4715035.html#top
 
 ## Binary Search
 
