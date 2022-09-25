@@ -1,3 +1,5 @@
+[TOC]
+
 
 
 ``` java
@@ -120,7 +122,7 @@ public class Main {
 
 
 
-
+## String 
 
 int to string
 
@@ -131,6 +133,59 @@ String rankStr = rank+"";
 //or
 String s=Integer.toString(i);
 ```
+
+get substring and concat with `+`
+
+```java
+str1.substring(0,5)+"concatcontent";
+```
+
+print integer as binary string
+
+```java
+System.out.println(Integer.toBinaryString(x));
+```
+
+
+
+String index： using charAt
+
+```
+str.charAt(index);
+str.length();
+```
+
+check if tow strings are equal,
+do not use `==`, use `str.equals()`
+
+```java
+"Hello".equals(greetingstr)
+"Hello".equalsIgnoreCase("hello")// ignore case
+```
+
+### empty array is not `null`
+
+empty array is an actual object, i.e. `""` denotes an string object with length of 0 and no content
+
+however  a string variable can also be `null` , that means it has not assigned with any object.
+
+
+
+## scanner input
+
+```java
+Scanner in = new Scanner(System.in);
+```
+
+## file input
+
+```java
+Scanner in = new Scanner(Paths.get("niyflle.txt"), "UTF-8");
+```
+
+
+
+
 
 
 
@@ -170,11 +225,82 @@ for (int num: array1){
 
 
 
-Map Hashmap
+## Map Hashmap
+
+https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
 
 ```java
-Map<Integer, Integer> map = new HashMap<>();
+Map<Integer, Integer> m = new HashMap<>();
+m.put(1,2);
+m.put(3,4);
+m.get(3);
+m.remove(3); // remove keypair
+m.clear(); // delete all
+m.size();
+m.containsKey(1);//check if key in map
 ```
+
+
+
+
+
+
+
+## HashSet
+
+https://www.geeksforgeeks.org/initializing-hashset-java/
+
+https://stackoverflow.com/questions/2041778/how-to-initialize-hashset-values-by-construction
+
+initialize hashset with constructor
+
+```
+Set<String> h = new HashSet<>(Arrays.asList("a", "b"));
+Set<Integer> rot = new HashSet<>(Arrays.asList(2,5,6,9));
+```
+
+```
+// Import the HashSet class
+import java.util.HashSet;
+
+public class Main {
+  public static void main(String[] args) {
+    HashSet<String> cars = new HashSet<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("BMW");
+    cars.add("Mazda");
+    cars.contains("Mazda"); // in
+    cars.remove("Volvo"); // del
+    cars.size(); // len
+    cars.clear(); // delete all
+    System.out.println(cars);
+  }
+}
+```
+
+
+
+```java
+for (String i : cars) {
+  System.out.println(i);
+}
+```
+
+
+
+
+
+check not null
+
+```
+System.out.println(Objects.nonNull(s));
+```
+
+
+
+
 
 
 
@@ -236,7 +362,7 @@ https://leetcode.com/problems/relative-ranks/discuss/1194733/java-priority-queue
 
 lambda expression `(a,b)->score[b]-score[a]` 
 
- lambda expression example
+lambda expression example
 
 ```java
 // 1. 不需要参数,返回值为 5  
@@ -255,6 +381,19 @@ x -> 2 * x
 (String s) -> System.out.print(s)
 ```
 
+## bit manipulaiton
+
+bitwise and & logical and &&
+
+`^` xor
+
+`~` not
+
+`<<` left move
+
+`>>` right move
+
+`>>>` right move fill with sign bit
 
 
 
@@ -262,6 +401,29 @@ x -> 2 * x
 
 
 
+java initialize 2d array
+
+```java
+List<List<Integer>> list = new ArrayList<List<Integer>>();
+// or
+List<List<Integer>> list = new ArrayList<>();
+```
+
+https://stackoverflow.com/questions/30401948/initialize-listlistinteger-in-java
+
+
+
+
+
+concat two arraylist   `.addAll()`
+
+```java
+ArrayList<String> arraylist3=new ArrayList<String>();
+
+arraylist3.addAll(Arraylist1); // add first arraylist
+
+arraylist3.addAll(Arraylist2); // add Second arraylist
+```
 
 
 
@@ -269,6 +431,19 @@ x -> 2 * x
 
 
 
+convert chae to int
+
+```java
+char x = '9';
+int y = x - '0'; // gives the int value 9
+```
+
+***modulo*** `10^9 + 7`.
+
+```
+int M=1000000007;
+int ret;
+```
 
 
 
@@ -276,20 +451,54 @@ x -> 2 * x
 
 
 
+## ArrayList
+
+```
+al.add(value)
+al.get(index)
+al.size()
+```
 
 
 
 
 
+```
+Integer arr[] = { 5, 6, 7, 8, 1, 2, 3, 4, 3 };
+```
+
+注意位运算和加减法的优先级，一直要带括号，否则会先算加减法
 
 
 
+```
+ ArrayList<String> names2 = new ArrayList<>();
+names2.forEach(System.out::println);
+```
 
 
 
+Arraylist deep copy
+
+https://stackoverflow.com/questions/42067086/how-do-i-make-a-deep-copy-of-an-arraylistinteger-in-java
+
+```
+private ArrayList<Integer> makeDeepCopyInteger(ArrayList<Integer> old){
+    ArrayList<Integer> copy = new ArrayList<Integer>(old.size());
+    for(Integer i : old){
+        copy.add(new Integer(i));
+    }
+    return copy;
+}
+```
 
 
 
+or using constructor
+
+```java
+List<Integer> copy = new ArrayList<Integer>(list);
+```
 
 
 
@@ -319,6 +528,31 @@ Queue<String> q = new LinkedList<>();
 
 
 
+Java Max/Min of array, primitive array
+
+https://stackoverflow.com/questions/1484347/finding-the-max-min-value-in-an-array-of-primitives-using-java
+
+```
+import java.util.Arrays;
+
+public class Test {
+    public static void main(String[] args){
+        int[] tab = {12, 1, 21, 8};
+        int min = Arrays.stream(tab).min().getAsInt();
+        int max = Arrays.stream(tab).max().getAsInt();
+        System.out.println("Min = " + min);
+        System.out.println("Max = " + max)
+    }
+
+}
+```
+
+java Math.max() and Math.min() are only for primitive types like int double of float, not wrapper classes like Integer
+
+
+
+
+
 
 
 
@@ -330,4 +564,110 @@ Priority queue
 ```
 
 ```
+
+
+
+## Types
+
+primitive types 8: 4 integer 2 float 1 char 1 boolean
+
+### Primitive type and Wrapper Class
+
+int and Integer
+
+char and Character
+
+HashSet HashMap cannot contain primitive types
+
+
+
+
+
+
+
+gin vue admin
+
+guli mail
+
+
+
+
+
+## static
+
+https://www.geeksforgeeks.org/difference-between-static-and-non-static-method-in-java/
+
+
+
+
+
+## final 
+
+constant
+
+
+
+
+
+Comment to doc
+
+start with `/**` end with `*/`
+
+
+
+
+
+## Core  Java Vol.1
+
+p29 
+
+> 关键字 class 表明 Java 程序中的全部内容都包含在类中。这里， 只 需要将类作为一个加载程序逻辑的容器，程序逻辑定义了应用程序的行为。在
+
+p34
+
+> Double.isNaN();
+>
+> double and BigDecimal
+
+p42 Type cast
+
+bollean to integer
+
+> 不要在 boolean 类型与任何数值类型之间进行强制类型转换， 这样可以防止 发生错误。只有极少数的情况才需要将布尔类型转换为数值类型，这时可以使用条件表 达式 b ? 1:0
+
+p49 string  empty string is not `null`
+
+p50 methods of string   string api
+
+p55 StringBuilder
+
+p56 scanner
+
+p82 `String args[]` 命令行参数
+
+p84 methods of array / array  api 
+
+### Chapter.4 OOP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+install java api doc in local machine
+
+
 
