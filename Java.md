@@ -657,7 +657,9 @@ p84 methods of array / array  api
 
 
 
+math.round()
 
+https://stackoverflow.com/questions/37256550/difference-between-math-rint-and-math-round-in-java#:~:text=or%20an%20Infinity.-,Math.,s%20and%20returns%20double%20s.
 
 
 

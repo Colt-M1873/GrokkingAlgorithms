@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 蓄水池抽样
 
 https://leetcode.cn/problems/linked-list-random-node/solution/gong-shui-san-xie-xu-shui-chi-chou-yang-1lp9d/
@@ -55,6 +63,18 @@ https://leetcode.cn/problems/linked-list-random-node/solution/gong-shui-san-xie-
 
 
 
+平方差
+$$
+a^2-b^2=(a+b)(a-b)
+$$
+平方和 sum of squares from 1 to n
+$$
+\sum_{k=1}^n k^2=1^2+2^2+3^2+\cdots+n^2=\frac{n^3}{3}+\frac{n^2}{2}+\frac{n}{6}=\frac{n(n+1)(2 n+1)}{6}
+$$
+
+
+
+
 
 
 
@@ -72,6 +92,44 @@ https://leetcode.cn/problems/rotated-digits/solution/xuan-zhuan-shu-zi-by-leetco
 https://mp.weixin.qq.com/s/8Z7W4xVnKLL3fLpjN6zXXQ
 
 https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/solution/python-shu-wei-dpmo-ban-ti-by-981377660l-xtkb/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
