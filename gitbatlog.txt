@@ -2870,3 +2870,32 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 0da14d4] mostly Leetcode problems solved, commited and pushed by bat
+ 8 files changed, 292 insertions(+), 1 deletion(-)
+ create mode 100644 LeetCode/292_NimGame.java
+ create mode 100644 LeetCode/990_SatisfiabilityOfEqualityEquations.java
+ create mode 100644 LeetCode/MissingTwoLcci.java
+git push origin master 
+
+2022.09.27 ÖÜ¶þ 22:31:35.66
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Java.md
+	deleted:    LeetCode/MissingTwoLcci.java
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/LcciCheckPermutation.java
+	LeetCode/LcciCheckPermutation.py
+	LeetCode/LcciMissingTwo.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 

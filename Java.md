@@ -581,6 +581,34 @@ HashSet HashMap cannot contain primitive types
 
 
 
+## 128 traps in java
+
+cannot use `==` to compare wrapper class
+
+```java
+package helloworld;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		Integer a = 128;
+		Integer b = 128;
+		int c = 128;
+		System.out.println(a==b);
+		System.out.println(a==c);
+		System.out.println(b==c);
+		System.out.println(a.equals(b));
+		return ;
+	}
+}
+// output:
+// false
+// true
+// true
+// true
+```
+
+
+
 
 
 
@@ -673,3 +701,30 @@ install java api doc in local machine
 
 
 
+
+
+
+
+## ++ 和 +1 的区别
+
+
+
+
+
+
+
+
+
+## Servlet
+
+method:
+
+```java
+service
+doGet  // only process get
+dpPost // only process post
+```
+
+req despatcher: the same url
+
+request redirector: another url
