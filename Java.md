@@ -583,7 +583,11 @@ HashSet HashMap cannot contain primitive types
 
 ## 128 traps in java
 
-cannot use `==` to compare wrapper class
+cannot use `==` to compare wrapper class outer than [-128,127]
+
+那么为什么在-128-127之间可以直接可以用==比较呢？
+
+https://blog.csdn.net/peinanwei__/article/details/123377205
 
 ```java
 package helloworld;
