@@ -134,6 +134,14 @@ String rankStr = rank+"";
 String s=Integer.toString(i);
 ```
 
+string to int 
+
+```java
+Integer.valueOf(str1);
+Integer.parseInt(str1);
+
+```
+
 get substring and concat with `+`
 
 ```java
@@ -407,11 +415,16 @@ java initialize 2d array
 List<List<Integer>> list = new ArrayList<List<Integer>>();
 // or
 List<List<Integer>> list = new ArrayList<>();
+
 ```
 
 https://stackoverflow.com/questions/30401948/initialize-listlistinteger-in-java
 
+```java
+int[][] arr=new int[10][20]
+```
 
+找java2d数组的题练一练，2d数组如何添加
 
 
 
@@ -429,9 +442,13 @@ arraylist3.addAll(Arraylist2); // add Second arraylist
 
 
 
+char to string
 
+```
+Character.toString()
+```
 
-convert chae to int
+convert char to int
 
 ```java
 char x = '9';
@@ -453,7 +470,10 @@ int ret;
 
 ## ArrayList
 
-```
+cannot index with `arr[i]`, must use `get` method
+
+```java
+ArrayList<Integer> numbers = new ArrayList<>(Arrays. asList(1, 2, 3, 4, 5, 6));
 al.add(value)
 al.get(index)
 al.size()
