@@ -2969,3 +2969,31 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master f3d92f7] mostly Leetcode problems solved, commited and pushed by bat
+ 6 files changed, 101 insertions(+), 3 deletions(-)
+ create mode 100644 LeetCode/70_ClimbingStars.java
+ create mode 100644 LeetCode/91_DecodeWays.java
+git push origin master 
+
+2022.10.18 ÖÜ¶þ 19:01:46.45
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Java.md
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/38_CountandSay.py
+	LeetCode/62_UniquePath.py
+	LeetCode/817_LinkedListComponents.py
+	LeetCode/976_LargestPerimeterTriangle.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
