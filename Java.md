@@ -475,7 +475,9 @@ cannot index with `arr[i]`, must use `get` method
 ```java
 ArrayList<Integer> numbers = new ArrayList<>(Arrays. asList(1, 2, 3, 4, 5, 6));
 al.add(value)
+al.add(insertIndx,value)
 al.get(index)
+al.remove(index)
 al.size()
 ```
 

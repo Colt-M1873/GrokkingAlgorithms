@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/count-and-say/
 # 2022年10月18日 19:01:36
 
+# 20min
 class Solution:
     def countAndSay(self, n: int) -> str:
         retStr='1'

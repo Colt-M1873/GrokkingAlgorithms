@@ -2997,3 +2997,37 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 994f0b9] mostly Leetcode problems solved, commited and pushed by bat
+ 7 files changed, 176 insertions(+), 1 deletion(-)
+ create mode 100644 LeetCode/38_CountandSay.py
+ create mode 100644 LeetCode/62_UniquePath.py
+ create mode 100644 LeetCode/817_LinkedListComponents.py
+ create mode 100644 LeetCode/976_LargestPerimeterTriangle.java
+git push origin master 
+
+2022.10.21 ÷‹ŒÂ 14:56:56.43
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Java.md
+	modified:   LeetCode/38_CountandSay.py
+	deleted:    LeetCode/U_219_ContainsDuplicate.go
+	deleted:    LeetCode/U_219_ContainsDuplicate.py
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/1137_NthTribonacciNumber.java
+	LeetCode/219_ContainsDuplicate.go
+	LeetCode/219_ContainsDuplicate.java
+	LeetCode/219_ContainsDuplicate.py
+	OmniGrammar/omni.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
