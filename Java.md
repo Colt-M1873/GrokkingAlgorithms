@@ -163,7 +163,7 @@ str.charAt(index);
 str.length();
 ```
 
-check if tow strings are equal,
+string comparison: check if tow strings are equal,
 do not use `==`, use `str.equals()`
 
 ```java
@@ -504,7 +504,7 @@ Arraylist deep copy
 
 https://stackoverflow.com/questions/42067086/how-do-i-make-a-deep-copy-of-an-arraylistinteger-in-java
 
-```
+```java
 private ArrayList<Integer> makeDeepCopyInteger(ArrayList<Integer> old){
     ArrayList<Integer> copy = new ArrayList<Integer>(old.size());
     for(Integer i : old){
@@ -524,9 +524,25 @@ List<Integer> copy = new ArrayList<Integer>(list);
 
 
 
+partial arraycopy 
+
+```java
+System.arraycopy(a,idx1,b,idx2,length);
+```
 
 
 
+### Array copy
+
+```
+b=Arrays.copyOf(a,a.length)
+b=a.clone()
+System.arraycopy(b,idx1,a,idx2,length)
+```
+
+
+
+https://www.baeldung.com/java-system-arraycopy-arrays-copyof-performance
 
 
 
@@ -806,3 +822,19 @@ dpPost // only process post
 req despatcher: the same url
 
 request redirector: another url
+
+
+
+
+
+
+
+
+
+## Counterintuitives of java
+
+128 trap
+
+string comparison, not using `==` but use `str1.equals(str2)` instead
+
+array copy `int[] b = Array.copyOf(a,a.length)`partial array copy `System.arraycopy(a,idx1,b,idx2,length)`

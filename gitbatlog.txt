@@ -3059,3 +3059,20 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master abf06e9] mostly Leetcode problems solved, commited and pushed by bat
+ 15 files changed, 247 insertions(+)
+ create mode 100644 Algo/Heap/.idea/.gitignore
+ create mode 100644 Algo/Heap/.idea/misc.xml
+ create mode 100644 Algo/Heap/.idea/modules.xml
+ create mode 100644 Algo/Heap/.idea/vcs.xml
+ create mode 100644 Algo/Heap/Heap.iml
+ create mode 100644 Algo/Heap/MinIntHeap.java
+ create mode 100644 Algo/Heap/out/production/Heap/.idea/.gitignore
+ create mode 100644 Algo/Heap/out/production/Heap/.idea/misc.xml
+ create mode 100644 Algo/Heap/out/production/Heap/.idea/modules.xml
+ create mode 100644 Algo/Heap/out/production/Heap/.idea/vcs.xml
+ create mode 100644 Algo/Heap/out/production/Heap/Heap.iml
+ create mode 100644 Algo/Heap/out/production/Heap/MinIntHeap.class
+ create mode 100644 Algo/TODO.md
+git push origin master 
