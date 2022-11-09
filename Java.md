@@ -539,7 +539,11 @@ private ArrayList<Integer> makeDeepCopyInteger(ArrayList<Integer> old){
 }
 ```
 
+arraylist element set
 
+```
+public E set(int index, E element)
+```
 
 or using constructor
 

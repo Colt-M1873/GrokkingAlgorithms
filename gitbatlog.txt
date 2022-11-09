@@ -3100,3 +3100,35 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 35a44de] mostly Leetcode problems solved, commited and pushed by bat
+ 10 files changed, 410 insertions(+), 1 deletion(-)
+ create mode 100644 LeetCode/1014_BestSightseeingPair.java
+ create mode 100644 LeetCode/118_PascalsTriangle.java
+ create mode 100644 LeetCode/122_BestTimetoBuyandSellStockII.java
+ create mode 100644 LeetCode/131_PalindromePartitioing.py
+ create mode 100644 LeetCode/1544_MakeTheStringGreat.java
+ create mode 100644 LeetCode/264_UglyNumberII.java
+ create mode 100644 LeetCode/714_BestTimeToBuyAndSellStockWithTransactionFee.java
+git push origin master 
+
+2022.11.09 ÖÜÈý 22:46:36.22
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Java.md
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/119_PascalsTriangleII.java
+	LeetCode/120_Triangle.java
+	LeetCode/U_300_LongestIncreasingSubsequence.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
