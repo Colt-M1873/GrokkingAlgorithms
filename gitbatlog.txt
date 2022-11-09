@@ -3076,3 +3076,27 @@ git commit -m 'mostly Leetcode problems solved, commited and pushed by bat'
  create mode 100644 Algo/Heap/out/production/Heap/MinIntHeap.class
  create mode 100644 Algo/TODO.md
 git push origin master 
+2022.11.09 ÖÜÈý 16:58:59.89
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Java.md
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/1014_BestSightseeingPair.java
+	LeetCode/118_PascalsTriangle.java
+	LeetCode/122_BestTimetoBuyandSellStockII.java
+	LeetCode/131_PalindromePartitioing.py
+	LeetCode/1544_MakeTheStringGreat.java
+	LeetCode/264_UglyNumberII.java
+	LeetCode/714_BestTimeToBuyAndSellStockWithTransactionFee.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 

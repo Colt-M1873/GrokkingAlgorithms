@@ -45,7 +45,7 @@ https://stackoverflow.com/questions/1694751/java-array-sort-descending
 
 
 
-
+## Primitive int array
 
 int and Integer
 
@@ -83,6 +83,12 @@ int[] copiedArray = array1.clone();
 ```
 
 
+
+If it's a primitive type, you can use `Arrays.fill()`to fill the whole array with the same value
+
+```java
+Arrays.fill(array, -1);
+```
 
 
 
@@ -176,6 +182,18 @@ do not use `==`, use `str.equals()`
 empty array is an actual object, i.e. `""` denotes an string object with length of 0 and no content
 
 however  a string variable can also be `null` , that means it has not assigned with any object.
+
+
+
+### StringBuilder
+
+```java
+StringBuilder sb=new StringBuidler();
+sb.add("asdweasd");
+String retStr = sb.toString();
+```
+
+
 
 
 
@@ -470,6 +488,13 @@ int ret;
 
 ## ArrayList
 
+initialize ArrayList with value
+
+```
+ArrayList<Integer> a = new ArrayList<Integer>(Arrays.asList(1,2,3));
+// 等价于python a=[1,2,3]
+```
+
 cannot index with `arr[i]`, must use `get` method
 
 ```java
@@ -591,7 +616,11 @@ java Math.max() and Math.min() are only for primitive types like int double of f
 
 
 
+### 2d ArrayList
 
+```java
+List<List<String>> listOfLists = new ArrayList<List<String>>(size); 
+```
 
 
 
@@ -838,3 +867,69 @@ request redirector: another url
 string comparison, not using `==` but use `str1.equals(str2)` instead
 
 array copy `int[] b = Array.copyOf(a,a.length)`partial array copy `System.arraycopy(a,idx1,b,idx2,length)`
+
+
+
+
+
+
+
+
+
+直接string连接（比如用加号）是很慢的，特别是在循环里的时候，因为这相当于每次开辟一块新内存去存储新的字符串，而用StringBuilder的append会快很多
+
+
+
+
+
+看看effective java？对技术人而言对于技术的taste还是有点重要的，此外就是技术人要有销售人的心态，将经世致用作为标准，虽然做的好是基础，但不要在做的好上钻牛角尖，卖出去比做的好要更重要，不要让思考型的心态影响你的前途。首先，思考型心态让你注重结果，但很多时候光有结果是不够的，结果要让人看得到，要做好branding，要有效用，有利益（这也是课堂级与生产级的区别之一）。其次，总有些事是想不出结果的，在这样的情况下笃行比原理和思考更重要。一定程度上的反例参考楼天城和小马智行的行事风格。
+
+
+
+
+
+# 待写
+
+从课堂级到生产级的数组（链表，树，集合）的实现，对应CS61B的第四章和第六章
+
+size控制：例如2倍的内存扩张，利用率小于四分之一则收缩内存
+
+速度和内存优化：手动实现数组的size控制就是速度和内存优化的一个经典案例，其次还有toString方法中string之间用加号还是用stringbuilder也是
+
+兼容性，类型安全，exceptions：例如你的数组是否能和官方的互用，是否兼容任意类型（只有个int的数据结构是学生代码中很常见的，而生产级别的代码可能需要更高的互用性，兼容任意Type），如果有高兼容性的话，那类型安全又是需要考虑的问题，例如传入了一个被允许的类型，但这个类型恰好不具有某些特征，这时候要有合理的exception
+
+兼容性之二：加入iterator，支持（T s:ArrayS）这样的语法；重载toString，支持直接Println；重载equals方法，支持.equal直接比较整个数组；支持可变参数的of函数直接建立数组，类似于Set.of(1，2，3)等等
+
+
+
+脱离童稚时代 童稚状态 王小波
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Asymptotic Analysis
+
+digression
+
+quadratic / parabpla
+
+
+
+zerpify
