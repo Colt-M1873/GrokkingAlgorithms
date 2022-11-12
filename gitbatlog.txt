@@ -3158,3 +3158,23 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master ca959a5] mostly Leetcode problems solved, commited and pushed by bat
+ 4 files changed, 59 insertions(+), 1 deletion(-)
+ create mode 100644 LeetCode/1035_UncrossedLines.java
+git push origin master 
+
+2022.11.12 ÷‹¡˘ 15:33:45.29
+git status 
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
