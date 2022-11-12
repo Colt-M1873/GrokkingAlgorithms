@@ -3216,3 +3216,22 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master fe5a15f] mostly Leetcode problems solved, commited and pushed by bat
+ 2 files changed, 21 insertions(+)
+git push origin master 
+
+2022.11.12 ÷‹¡˘ 16:32:54.61
+git status 
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
