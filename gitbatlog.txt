@@ -3178,3 +3178,8 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master bb3fd16] mostly Leetcode problems solved, commited and pushed by bat
+ 2 files changed, 22 insertions(+)
+git push origin master 
+
