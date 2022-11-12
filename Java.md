@@ -484,7 +484,7 @@ int ret;
 
 
 
-
+找primive和wrapped数组的property和methods
 
 ## ArrayList
 
