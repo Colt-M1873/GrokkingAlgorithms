@@ -3235,3 +3235,26 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 5aa5b41] mostly Leetcode problems solved, commited and pushed by bat
+ 2 files changed, 21 insertions(+)
+git push origin master 
+
+2022.12.14 ÖÜÈý 14:47:22.69
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   a.txt
+	modified:   gitbatlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LeetCode/198_HouseRobber.java
+	LeetCode/3_LongestSubstringWithoutRepeatingCharacters.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 
