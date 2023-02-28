@@ -4,19 +4,41 @@ class Solution {
     public int tribonacci(int n) {
         // v2 dp
         int[] a;
-        if (n>2){
-            a=new int[n+1];
-        }else{
-            a=new int[3];
+        if (n > 2) {
+            a = new int[n + 1];
+        } else {
+            a = new int[3];
         }
-        a[0]=0; a[1]=1;a[2]=1;
-        for (int i=3;i<n+1;i++){
-            a[i]=a[i-1]+a[i-2]+a[i-3];
+        a[0] = 0;
+        a[1] = 1;
+        a[2] = 1;
+        for (int i = 3; i < n + 1; i++) {
+            a[i] = a[i - 1] + a[i - 2] + a[i - 3];
         }
         return a[n];
         // // v1 recursion TLE
         // if(n<2){return n;}
         // if(n==2){return 1;}
         // return tribonacci(n-1)+tribonacci(n-2)+tribonacci(n-3);
+    }
+}
+
+// 2023年02月28日 17:18:58
+class Solution {
+    public int tribonacci(int n) {
+        if (n < 2) {
+            return n;
+        }
+        if (n == 2) {
+            return 1;
+        }
+        int a = 0, b = 1, c = 1, d = a + b + c;
+        for (int i = 3; i <= n; i++) {
+            d = a + b + c;
+            a = b;
+            b = c;
+            c = d;
+        }
+        return d;
     }
 }
