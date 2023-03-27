@@ -2,6 +2,13 @@
 
 
 
+HashMap
+1. HashMap 总体是数组+链表的存储结构， 从JDK1.8开始，当数组的长度大于64，且链表的长度大于8的时候，会把链表转为红黑树。
+
+2. 数组的默认长度是16。数组中的每一个元素为一个node，也就是链表的一个节点，node的数据包含: key的hashcode, key, value,指向下一个node节点的指针。
+
+
+
 ``` java
 import java.util.Arrays;
 Arrays.sort(arr1);

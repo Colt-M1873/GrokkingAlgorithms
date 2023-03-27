@@ -49,9 +49,30 @@
 - [ ] String
   - [ ] KMP
 - [ ] SQL
-  - [ ] 
+- [ ] ACM 输入输出，链表/树/图的构建
+
+
+
 
 背包问题
+回溯  组合问题， 子集问题， 
+手动实现哈希表
+bat实现randombox，以时间为种子
+
+
+回溯 Backtracking
+
+77组合
+78子集
+
+
+
+
+
+DP
+[718](./LeetCode/718_MaximumLengthofRepeatedSubarray.py)
+72编辑距离
+
 
 
 ## SQL
