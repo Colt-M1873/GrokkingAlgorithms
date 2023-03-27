@@ -3321,3 +3321,51 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add --all 
+git commit -m 'mostly Leetcode problems solved, commited and pushed by bat' 
+[master 2af4173] mostly Leetcode problems solved, commited and pushed by bat
+ 16 files changed, 366 insertions(+), 19 deletions(-)
+ create mode 100644 LeetCode/213_HouseRobberII.java
+ create mode 100644 LeetCode/55_JumpGame.java
+ create mode 100644 LeetCode/55_JumpGameII.java
+ create mode 100644 LeetCode/740_DeleteAndEarn.java
+ create mode 100644 "LeetCode/\345\211\221\346\214\207Offer03\346\225\260\347\273\204\344\270\255\351\207\215\345\244\215\347\232\204\346\225\260\345\255\227.java"
+ create mode 100644 "LeetCode/\345\211\221\346\214\207Offer05\346\233\277\346\215\242\347\251\272\346\240\274.java"
+ create mode 100644 "LeetCode/\345\211\221\346\214\207Offer06\344\273\216\345\260\276\345\210\260\345\244\264\346\211\223\345\215\260\351\223\276\350\241\250.java"
+ create mode 100644 "LeetCode/\345\211\221\346\214\207Offer53II0\345\210\260n-1\344\270\255\347\274\272\345\244\261\347\232\204\346\225\260\345\255\227.java"
+ create mode 100644 "LeetCode/\345\211\221\346\214\207Offer53I\345\234\250\346\216\222\345\272\217\344\270\255\346\237\245\346\211\276\346\225\260\345\255\227I.java"
+ create mode 100644 "LeetCode/\345\211\221\346\214\207Offer58II\345\267\246\346\227\213\345\255\227\347\254\246\344\270\262.java"
+git push origin master 
+
+2023.03.27 ÷‹“ª 13:46:41.49
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .obsidian/appearance.json
+	modified:   .obsidian/core-plugins.json
+	modified:   Algo/TODO.md
+	modified:   Java.md
+	modified:   LeetCode/219_ContainsDuplicate.go
+	modified:   LeetCode/740_DeleteAndEarn.java
+	modified:   a.txt
+	modified:   gitbatlog.txt
+	modified:   index.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.obsidian/core-plugins-migration.json
+	.obsidian/workspace.json
+	LeetCode/1137_NthTribonacciNumber.go
+	LeetCode/509_FibonacciNumber.go
+	LeetCode/53_MaximumSubarray.go
+	LeetCode/53_MaximumSubarray.java
+	LeetCode/77_Combinations.go
+	"LeetCode/\345\211\221\346\214\207Offer32-II\344\273\216\344\270\212\345\210\260\344\270\213\346\211\223\345\215\260\344\272\214\345\217\211\346\240\221.go"
+	"LeetCode/\345\211\221\346\214\207Offer32-II\344\273\216\344\270\212\345\210\260\344\270\213\346\211\223\345\215\260\344\272\214\345\217\211\346\240\221.py"
+	"LeetCode/\345\211\221\346\214\207Offer32-I\344\273\216\344\270\212\345\210\260\344\270\213\346\211\223\345\215\260\344\272\214\345\217\211\346\240\221 copy.go"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add --all 

@@ -1,3 +1,67 @@
+
+
+- [ ] Tree
+  - [ ] Prior: DFS BFS with Iteration/Recursion
+  - [ ] Traversal
+    - [ ] In-order 
+    - [ ] Pre-order
+    - [ ] Post-order
+    - [ ] Layer
+  - [ ] Balanced Tree
+  - [ ] Red-Black Tree
+  - [ ] B+ Tree
+  - [ ] Trie
+- [ ] Graph
+  - [ ] Topological Sort
+- [ ] hashmap
+- [ ] heap
+- [ ] stack
+  - [ ] Monotonic
+- [ ] queue
+  - [ ] circular
+  - [ ] Monotonic
+- [ ] linked list
+  - [ ] double linked list
+- [ ] Union Find
+- [ ] LRU
+- [ ] Dynamic Programming
+  - [ ] Digit DP
+  - [ ] Path DP
+  - [ ] Memorization
+- [ ] Union Find / Disjoint Set
+- [ ] Sorting
+  - [ ] Bubble
+  - [ ] Selection
+  - [ ] Insertion
+  - [ ] Quick
+    - [ ] Shell
+  - [ ] Merge
+  - [ ] Heap
+  - [ ] Bucket?
+  - [ ] Radix
+  - [ ] Counting
+- [ ] Backtracking
+- [ ] Sliding Window
+- [ ] Bit Manipulation
+- [ ] Greedy
+- [ ] Prefix Sum
+- [ ] Combinatorics
+- [ ] String
+  - [ ] KMP
+- [ ] SQL
+  - [ ] 
+
+背包问题
+
+
+## SQL
+
+[595_BigCountries](./LeetCode/595_BigCountries.sql)
+[1757_RecyclableAndLowFatProducts](./LeetCode/1757_RecyclableAndLowFatProducts.sql)
+
+
+
+
 ## Totally no idea
 
 [53_MaximumSubarray](./LeetCode/53_MaximumSubarray.py)
@@ -279,8 +343,6 @@ https://oi-wiki.org/string/kmp/
 [88_MergeSortedArray](./LeetCode/88_MergeSortedArray.py)
 
 [171_ExcelSheetColumnNumber](./LeetCode/171_ExcelSheetColumnNumber.py)
-
-
 
 
 ### Zeroliner

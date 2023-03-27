@@ -20,8 +20,7 @@ class Solution {
             keyArr[i] = (int) ns;
             i++;
         }
-        System.out.println(keyArr.length);
-        Arrays.sort(keyArr);
+        Arrays.sort(keyArr); // sort to get a increasing sequence
         // house robber with condition that if two houses are adjacent
         int[] dp = new int[s.size()];
         dp[0] = (int) h.get(keyArr[0]);

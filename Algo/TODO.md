@@ -1,7 +1,7 @@
 - [ ] Tree
   - [ ] Prior: DFS BFS with Iteration/Recursion
   - [ ] Traversal
-    - [ ] In-order
+    - [ ] In-order 
     - [ ] Pre-order
     - [ ] Post-order
     - [ ] Layer
