@@ -22,7 +22,7 @@ class Solution:
         # # v1.1 recursive oneliner
         # return self.inorderTraversal(root.left)+[root.val]+self.inorderTraversal(root.right) if root else []
 
-        # v2 copied iterative, non-recursive using stack
+        # v2 copied iterative, non-recursive using stack, best practise
         ret =[]
         stack=[]
         while stack or root:
